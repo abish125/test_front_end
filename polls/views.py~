@@ -88,11 +88,11 @@ def submit_article(request):
 
 
 def smart(request):
-    return render(request, 'polls/smart2.html')
+    return render(request, 'polls/smart.html')
     
 def smart2(request):
     t=request.GET['1']
-    return render(request, 'polls/convert_text2.html',{'text':text})
+    return render(request, 'polls/convert_text2.html',{'text':t})
 
 def convert_text(request):
     return render(request, 'polls/convert_text.html')
