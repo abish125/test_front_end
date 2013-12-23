@@ -1,0 +1,3 @@
+{% for t in text %}
+<p><strong>{{ t }}</strong></p>
+{% endfor }%

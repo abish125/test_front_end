@@ -1,0 +1,11 @@
+<html>
+<head>
+    <title>DOI Search</title>
+</head>
+<body>
+    <form action="/polls/claim/" method="get">
+        <input type="text" name="q">
+        <input type="Claim" value="Claim">
+    </form>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Patient Data</title>
+    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="../excanvas.min.js"></Script><![endif]-->
+    <script type=text/javascript src="{{MEDIA_URL}}/jquery.js"></script>
+    <script type=text/javascript src="{{MEDIA_URL}}/index.js"></script>
+    <script type=text/javascript src="{{MEDIA_URL}}/jquery.flot.js"></script>
+    <script type=text/javascript src="{{MEDIA_URL}}/jquery.flot.bubble.js"></script>
+    <script type=text/css src="{{MEDIA_URL}}/layout.css"></script>
+ </head>
+ <body>
+    <h1>Flot Examples</h1>
+    <div id="placeholder" style="width:600px;height:300px;"></div>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Flot Examples</title>
+    <link href="layout.css" rel="stylesheet" type="text/css"></link>
+    <!--[if IE]><script language="javascript" type="text/javascript" src="../excanvas.min.js"></script><![endif]-->
+    <script language="javascript" type="text/javascript" src="../jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="../jquery.flot.js"></script>
+ </head>
+    <body>
+    <h1>{{ c_cardio }}</h1>
+
+<script id="source" language="javascript" type="text/javascript">
+    $(function () {
+        var d1 = [[20, 60, {{ c_cardio }}]]
+        var d2 = [[2, 2, 1], [4, 8, 2], [6, 5, 2], [8, 0, 4], [9, 50, 90]]
+        var d3 = [[9, 13, 20], [20, 28, 30], [20, 2, 10]];
+        var d4 = [[8.2, 4, 10]]
+
+        function showTooltip(x, y, contents) {
+            $('<div id="tooltip">' + contents + '</div>').css( {
+                position: 'absolute',
+                display: 'none',
+                top: y + 15,
+                left: x + 15,
+                border: '1px solid #1d1d1d',
+                padding: '5px',
+                color: '#eee',
+                'background-color': '#1d1d1d',
+                opacity: 0.80
+            }).appendTo("body").fadeIn(200);
+        }
+
+        var previousPoint = null;
+        $("#placeholder").bind("plotclick", function (event, pos, item) {
+          if(item){
+            var x = item.datapoint[0].toFixed(2),
+            y = item.datapoint[1].toFixed(2);
+            alert('clicked ' + item.series.label + ': (' + x + ', ' + y + ')')
+          }
+        })
+
+        $("#placeholder").bind("plothover", function (event, pos, item) {
+
+
+            $("#x").text(pos.x.toFixed(2));
+            $("#y").text(pos.y.toFixed(2));
+
+                if (item) {
+
+                    if (previousPoint != item.datapoint) {
+                        previousPoint = item.datapoint;
+
+                        $("#tooltip").remove();
+                        var x = item.datapoint[0].toFixed(2),
+                            y = item.datapoint[1].toFixed(2);
+
+                        showTooltip(item.pageX, item.pageY,
+                                    item.series.label + ': (' + x + ', ' + y + ')');
+                    }
+                }
+                else {
+                    $("#tooltip").remove();
+                    previousPoint = null;            
+                }
+        });
+
+        function renderPlot(opts){
+        plot = $.plot($("#placeholder"), [
+          {data: d1, color: '#A1FDFF', label: 'Cardiovascular' },
+          {data: d2, color: '#A4FFA7', label: 'bam' },
+          {data: d4, color: '#FF804A', label: 'bada' },
+          {data: d3, color: '#FFE163', label: 'bing' }
+          ],
+            {
+              series: {
+                bubble: true,
+                points: { show: true },
+                lines:  { show: opts.lines }
+              },
+              xaxis: {  // min: 0, max: 10
+                autoscaleMargin: true
+                } ,
+              yaxis: { // min: 0, max: 10
+                autoscaleMargin: true
+                },
+            	grid: { hoverable: true, clickable: true ,tickColor: '#444'}, 
+            	shadowSize: 6
+            }
+        );
+      }
+      renderPlot({lines: false})
+      $('input#lines').click(function(){
+        renderPlot({lines: $(this).is(":checked")})
+      })
+    });
+    </script>
+
+ </body>
+</html>
+
+	{% block body %} {% endblock %}
+    <div class=page>
+      <h1>Help Change Medicine</h1>
+      <div class=metanav>
+      </div>
+    </div>
+ </body>
+</html>

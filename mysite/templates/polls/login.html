@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block body %}
+
+{% if feeds %}
+    <ul>
+	    {% for item in feeds %}
+	    	<p> {{ item }} </p>
+	    {% endfor %}
+    </ul>
+{% else %}
+    <p>No feeds are available.</p>
+{% endif %}
+
+{% if y %}
+    <ul>
+    {% for s in y %}
+    	<p> {{ s }} </p>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No y is available.</p>
+{% endif %}
+
+<script id="source" language="javascript" type="text/javascript">
+$(function () {
+    $.plot($("#ph"), {{ graph.series_json|safe }}, {{ graph.options_json|safe }});
+});
+</script>
+<div id="ph" style="width:600px;height:300px;"></div>
+
+{% endblock %}
