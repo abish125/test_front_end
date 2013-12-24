@@ -163,5 +163,5 @@ def rs_import():
 '''       	     
        	 	
 def show_notes(request):
-    notes = Notes.objects.all()
+    notes = Note.objects.all()
     return render(request, 'polls/show_notes.html', {'notes': notes})
