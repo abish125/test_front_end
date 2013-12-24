@@ -4,6 +4,7 @@ from django.shortcuts import get_object_or_404, render
 from django.http import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
 from polls.models import RSSFeed, Specialty, Disease, Article, DOI, Note
+from django.contrib.auth.models import User
 import feedparser
 import string
 import os
