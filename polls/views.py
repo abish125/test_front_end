@@ -40,7 +40,7 @@ def index(request):
     #graph.add_line([(1, 2), (2, 2), (3, 2)])
     context = Context({
             'feeds': feeds,
-            'graph': graph,
+            'graph': "hello",
             'c_cardio': c_cardio,
             })
     return render(request, 'polls/login.html', context)
