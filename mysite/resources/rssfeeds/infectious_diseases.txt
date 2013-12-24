@@ -1,0 +1,100 @@
+Acta Tropica
+http://rss.sciencedirect.com/publication/science/0001706X
+AIDS
+http://194.66.22.134/rss/journals//00002030/current.rss
+American journal of infection control
+http://rss.sciencedirect.com/publication/science/01966553
+American Journal of Infectious Diseases
+http://www.scipub.org/scipub/xml/ajid.xml
+American journal of tropical medicine and hygiene
+http://www.ajtmh.org/rss/current.xml
+BMC infectious diseases
+http://www.biomedcentral.com/bmcinfectdis/rss/
+BMC public health
+http://www.biomedcentral.com/bmcpublichealth/rss
+Clinical infectious diseases
+http://www.journals.uchicago.edu./cgi-bin/rss?jrnl=CID&amp;type=latestissue
+Clinical microbiology and infection
+http://www3.interscience.wiley.com/rss/journal/118544741
+Comparative immunology, microbiology and infectious diseases
+http://rss.sciencedirect.com/publication/science/01479571
+Current HIV research
+http://api.ingentaconnect.com/content/ben/chr/latest?format=rss
+Current opinion in infectious diseases
+http://194.66.22.134/rss/journals//00001432/current.rss
+Diagnostic microbiology and infectious disease
+http://rss.sciencedirect.com/publication/science/07328893
+Emerging Infectious Diseases
+http://www.cdc.gov/ncidod/eid/rss/upcoming.xml
+Euro surveillance
+http://www.eurosurveillance.org/Public/RSSFeed/RSS.aspx
+European journal of clinical investigation
+http://www3.interscience.wiley.com/rss/journal/118482631
+European journal of clinical microbiology and infectious diseases
+http://www.springerlink.com/content/1435-4373/?sortorder=asc&amp;export=rss
+Genetic epidemiology
+http://www3.interscience.wiley.com/rss/journal/35841
+Infection
+http://www.springerlink.com/content/1439-0973/?sortorder=asc&amp;export=rss
+Infection and Drug Resistance
+http://www.dovepress.com/feed.php?journal_id=28
+Infection and Immunity
+http://iai.asm.org.ezproxy.library.wisc.edu/rss
+Infection control and hospital epidemiology
+http://www.journals.uchicago.edu/cgi-bin/rss?jrnl=ICHE&amp;type=latestissue
+Infectious diseases in clinical practice
+http://194.66.22.134/rss/journals//00019048/current.rss
+Infectious diseases in obstetrics and gynecology
+http://www.hindawi.com/RSS.aspx?journal=idog
+Interdisciplinary Perspectives on Infectious Diseases
+http://www.hindawi.com/journals/ipid/rss.xml
+journal of antimicrobial chemotherapy
+http://jac.oupjournals.org/rss/recent.xml
+Journal of autoimmune diseases
+http://www.jautoimdis.com/rss
+Journal of Global Infectious Diseases
+http://www.jgid.org/rssfeed.asp
+Journal of hospital infection
+http://rss.sciencedirect.com/publication/science/01956701
+Journal of infection
+http://rss.sciencedirect.com/publication/science/01634453
+Journal of Infection in Developing Countries
+http://www.jidc.org/index.php?format=feed&amp;type=rss
+journal of infectious diseases
+http://www.journals.uchicago.edu./cgi-bin/rss?jrnl=JID&amp;type=latestissue
+Journal of inherited metabolic disease
+http://www.springerlink.com/content/1573-2665/?sortorder=asc&amp;export=rss
+Journal of lower genital tract disease
+http://194.66.22.134/rss/journals//00128360/current.rss
+Journal of Venomous Animals and Toxins Including Tropical Diseases
+http://www.scielo.br/rss.php?pid=1678-9199&amp;lang=en
+Lancet Infectious Diseases
+http://rss.sciencedirect.com/publication/science/6666
+Malaria Journal
+http://www.malariajournal.com/rss/
+Morbidity and mortality weekly report. CDC surveillance summaries [1546-0738]
+http://www.cdc.gov/mmwr/rss/mmwr.xml
+Morbidity and mortality weekly report. Recommendations and reports
+http://www.cdc.gov/mmwr/rss/mmwr.xml
+Orphanet journal of rare diseases
+http://www.ojrd.com/rss/
+Parasites &amp; Vectors
+http://www.parasitesandvectors.com/rss/
+Pediatric Infectious Disease
+http://rss.sciencedirect.com/publication/science/22128328
+Pediatric infectious disease journal
+http://194.66.22.134/rss/journals//00006454/current.rss
+Scandinavian journal of infectious diseases
+http://informahealthcare.com/action/showFeed?ui=0&amp;mi=3s94u5&amp;ai=1lh1&amp;jc=inf&amp;type=etoc&amp;feed=rss
+Sexually transmitted diseases
+http://194.66.22.134/rss/journals//00007435/current.rss
+Sexually Transmitted Infections
+http://sti.bmjjournals.com/rss/current.xml
+Transplant infectious disease
+http://www3.interscience.wiley.com/rss/journal/117991831
+Tropical Parasitology
+http://www.tropicalparasitology.org/rssfeed.asp
+Virology journal
+http://www.virologyj.com/rss
+Virus genes
+http://www.springerlink.com/content/1572-994X/?sortorder=asc&amp;export=rss

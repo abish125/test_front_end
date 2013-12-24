@@ -6,42 +6,13 @@ from django.core.urlresolvers import reverse
 from polls.models import RSSFeed, Specialty, Disease, Article, DOI
 import feedparser
 import string
-import pyflot
 
 def index(request):
 
-    pw=range(11)
-    pw[0]="http://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss"
-    pw[1]="http://www.nature.com/nm/current_issue/rss/"
-    pw[2]="http://annals.org/rss/site_25/90.xml"
-    pw[3]="http://journals.lww.com/annalsofsurgery/_layouts/OAKS.Journals/feed.aspx?FeedType=CurrentIssue"
-    pw[4]="http://archsurg.jamanetwork.com/rssfeeds.aspx"
-    pw[5]="http://www.annemergmed.com/current.rss"
-    pw[6]="http://www.ajconline.org/current.rss"
-    pw[7]="http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1097-0142"
-    pw[8]="http://www.plosmedicine.org/article/feed"
-    pw[9]="http://www.cmaj.ca/rss/current.xml"
-    pw[10]="http://pediatrics.aappublications.org/rss/current.xml"
-    c_cardio=0
-    feeds=[]
-    for p in pw:
-	    fp = feedparser.parse(p)
-	    for item in fp["items"]:
-	    		feeds = feeds + [item["title"]]
-	    		if item["title"].lower().find("cardiovascular") != -1:
-	        		c_cardio = c_cardio + 1
-    f= open('/home/abish125/ENV/mysite/polls/list_of_diseases.txt', 'r')
-    x= f.readlines()
-    y= x[0].split('\r')
-
-    #variables I will need initially are nothing, but later I will need the username and password.
-    
-    graph = pyflot.Flot()
-    graph.add_line([(1, 2), (2, 2), (3, 2)])
     context = Context({
-            'feeds': feeds,
-            'graph': graph,
-            'c_cardio': c_cardio,
+            'feeds': "hello",
+            'graph': "world",
+            'c_cardio': "my name",
             })
     return render(request, 'polls/login.html', context)
 

@@ -1,0 +1,144 @@
+AIDS
+http://194.66.22.134/rss/journals//00002030/current.rss
+Allergology international
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=05vRiaq3JGvVzy2kHWxv08cpefLuv4Ax_MkYx0UTm-i
+Allergy
+http://www3.interscience.wiley.com/rss/journal/118519659
+Allergy, Asthma, and Clinical Immunology
+http://www.aacijournal.com/rss/
+American Journal of Immunology
+http://www.scipub.org/scipub/xml/aji.xml
+American journal of reproductive immunology
+http://www3.interscience.wiley.com/rss/journal/118522359
+Annals of allergy, asthma, and immunology
+http://rss.sciencedirect.com/publication/science/10811206
+Annual review of immunology
+http://arjournals.annualreviews.org/action/showFeed?ai=sl&amp;jc=immunol&amp;type=etoc&amp;feed=rss
+Applied immunohistochemistry and molecular morphology
+http://194.66.22.134/rss/journals//00129039/current.rss
+BioDrugs
+http://link.springer.com/search.rss?facet-content-type=Article&amp;facet-journal-id=40259&amp;channel-name=BioDrugs
+BMC immunology
+http://www.biomedcentral.com/bmcimmunol/rss
+Brain, Behavior, and Immunity
+http://rss.sciencedirect.com/publication/science/08891591
+Cellular and molecular immunology
+http://www.nature.com/cmi/current_issue/rss
+Cellular Immunology
+http://rss.sciencedirect.com/publication/science/00088749
+Clinical allergy
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1064852
+Clinical and Developmental Immunology
+http://www.hindawi.com/RSS.aspx?journal=cdi
+Clinical and experimental allergy
+http://www3.interscience.wiley.com/rss/journal/117999818
+Clinical and experimental allergy reviews
+http://www3.interscience.wiley.com/rss/journal/118498872
+Clinical and experimental immunology
+http://www3.interscience.wiley.com/rss/journal/117996139
+Clinical and Experimental Neuroimmunology
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1759-1961
+Clinical and molecular allergy
+http://www.clinicalmolecularallergy.com/rss
+Clinical and Vaccine Immunology
+http://cvi.asm.org/rss
+Clinical infectious diseases
+http://www.journals.uchicago.edu./cgi-bin/rss?jrnl=CID&amp;type=latestissue
+Clinical reviews in allergy and immunology
+http://api.ingentaconnect.com/content/hum/criai/latest?format=rss
+Clinical transplantation
+http://www3.interscience.wiley.com/rss/journal/117988740
+Comparative immunology, microbiology and infectious diseases
+http://rss.sciencedirect.com/publication/science/01479571
+Current opinion in allergy and clinical immunology
+http://194.66.22.134/rss/journals//00130832/current.rss
+Current opinion in immunology
+http://rss.sciencedirect.com/publication/science/09527915
+Developmental &amp; Comparative Immunology
+http://rss.sciencedirect.com/publication/science/0145305X
+Emerging Infectious Diseases
+http://www.cdc.gov/ncidod/eid/rss/upcoming.xml
+European journal of immunogenetics
+http://www3.interscience.wiley.com/rss/journal/25061
+European journal of immunology
+http://www3.interscience.wiley.com/rss/journal/25061
+FEMS immunology and medical microbiology
+http://www3.interscience.wiley.com/rss/journal/117959054
+Frontiers in immunology
+http://feedity.com/frontiersin-org/UFZXVVZa.rss
+Human immunology
+http://rss.sciencedirect.com/publication/science/01988859
+Immunity
+http://rss.sciencedirect.com/publication/science/10747613
+Immunity and ageing
+http://www.immunityageing.com/rss
+Immunologic research
+http://api.ingentaconnect.com/content/hum/ir/latest?format=rss
+Immunological reviews
+http://www3.interscience.wiley.com/rss/journal/118503650
+Immunology
+http://www3.interscience.wiley.com/rss/journal/118493028
+Immunology and cell biology
+http://www.nature.com/icb/current_issue/rss/
+Immunology letters
+http://rss.sciencedirect.com/publication/science/01652478
+Immunome research
+http://www.immunome-research.com/rss/
+Immunotherapy Weekly
+http://rss.proquest.com/rss?rss_id=600306
+Indoor Air
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1600-0668
+Infection
+http://www.springerlink.com/content/1439-0973/?sortorder=asc&amp;export=rss
+International archives of allergy and immunology
+http://content.karger.com/ProdukteDB/rss.asp?j=IAA
+International Forum of Allergy and Rhinology
+http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)2042-6984
+International immunology
+http://intimm.oupjournals.org/rss/recent.xml
+International Journal of Immunogenetics
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1744-313X
+journal of allergy and clinical immunology
+http://rss.sciencedirect.com/publication/science/00916749
+Journal of autoimmunity
+http://rss.sciencedirect.com/publication/science/08968411
+Journal of clinical immunology
+http://www.springerlink.com/content/1573-2592/?sortorder=asc&amp;export=rss
+Journal of immune based therapies and vaccines
+http://www.jibtherapies.com/rss/
+Journal of immunological methods
+http://rss.sciencedirect.com/publication/science/00221759
+Journal of Immunology
+http://www.jimmunol.org/rss/current.xml
+Journal of immunotherapy
+http://ovidsp.ovid.com/rss/journals/00002371/current.rss
+Journal of interferon and cytokine research
+http://www.liebertonline.com/action/showFeed?mi=po50&amp;ai=sk&amp;jc=jir&amp;type=etoc&amp;feed=rss
+Journal of neuroimmunology
+http://rss.sciencedirect.com/publication/science/01655728
+Journal of reproductive immunology
+http://rss.sciencedirect.com/publication/science/01650378
+JoVE: Immunology and Infection
+http://www.jove.com/rss
+Microbiology and Immunology
+http://www3.interscience.wiley.com/rss/journal/118902525
+Nature immunology
+http://www.nature.com/ni/current_issue/rss
+Nature reviews. Immunology
+http://www.nature.com/nri/current_issue/rss
+Parasite immunology
+http://www3.interscience.wiley.com/rss/journal/118519972
+Pediatric allergy and immunology
+http://www3.interscience.wiley.com/rss/journal/118512964
+Photodermatology, photoimmunology and photomedicine
+http://www3.interscience.wiley.com/rss/journal/117988866
+Scandinavian journal of immunology
+http://www.ingentaconnect.com/content/bsc/sji/latest?format=rss
+Seminars in Immunology
+http://rss.sciencedirect.com/publication/science/10445323
+Tissue antigens
+http://www3.interscience.wiley.com/rss/journal/118492326
+Trends in immunology
+http://rss.sciencedirect.com/publication/science/14714906
+World Allergy Organization Journal
+http://194.66.22.134/rss/journals//01312070/current.rss

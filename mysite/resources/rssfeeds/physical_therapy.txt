@@ -1,0 +1,60 @@
+Advances in physiotherapy
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1066237
+American journal of sports medicine
+http://ajs.sagepub.com/rss/current.xml
+Archives of physical medicine and rehabilitation
+http://rss.sciencedirect.com/publication/science/00039993
+British journal of occupational therapy
+http://api.ingentaconnect.com/content/cot/bjot/latest?format=rss
+British journal of sports medicine
+http://bjsm.bmj.com/rss/current.xml
+Canadian journal of occupational therapy
+http://api.ingentaconnect.com/content/caot/cjot/latest?format=rss
+Cardiopulmonary Physical Therapy Journal
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2037576
+Electrophoresis
+http://www3.interscience.wiley.com/rss/journal/10008330
+International Journal of Therapy and Rehabilitation
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2038775
+Journal of back and musculoskeletal rehabilitation
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1064952
+Journal of Geriatric Physical Therapy
+http://194.66.22.134/rss/journals//00139143/current.rss
+journal of head trauma rehabilitation
+http://194.66.22.134/rss/journals//00001199/current.rss
+Journal of manipulative and physiological therapeutics
+http://rss.sciencedirect.com/publication/science/01614754
+Journal of Manual and Manipulative Therapy
+http://feeds2.feedburner.com/JournalOfManualAndManipulativeTherapyjmmtNewsFeed?format=xml
+Journal of Neurologic Physical Therapy
+http://194.66.22.134/rss/journals//01253086/current.rss
+Journal of orthopaedic and sports physical therapy
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=0Oqr798sG9mliJMwEZpTfThl3ttUsvqIRGpWUgYffNX
+Journal of Physical Therapy Education
+http://rss.ebscohost.com.ezproxy.library.wisc.edu/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1425658
+Journal of women's health physical therapy
+http://194.66.22.134/rss/journals//01274882/current.rss
+Lippincott's Bone and Joint Newsletter
+http://194.66.22.134/rss/journals//01300517/current.rss
+Medicine and science in sports and exercise
+http://194.66.22.134/rss/journals//00005768/current.rss
+Neurorehabilitation and neural repair
+http://nnr.sagepub.com/rss/current.xml
+Pediatric physical therapy
+http://194.66.22.134/rss/journals//00001577/current.rss
+Physical and Occupational Therapy in Pediatrics
+http://informahealthcare.com/action/showFeed?ui=0&amp;mi=3s94u5&amp;ai=1ozx&amp;jc=pop&amp;type=etoc&amp;feed=rss
+Physical therapy
+http://www.ptjournal.org/rss/ahead.xml
+Physiotherapy
+http://rss.sciencedirect.com/publication/science/00319406
+Physiotherapy Canada
+http://www.metapress.com/content/121052/?sortorder=asc&amp;export=rss
+Physiotherapy research international
+http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1471-2865
+Physiotherapy theory and practice
+http://informahealthcare.com/action/showFeed?ui=0&amp;mi=3s94u5&amp;ai=1mo2&amp;jc=ptp&amp;type=etoc&amp;feed=rss
+PM &amp; R
+http://rss.sciencedirect.com/publication/science/43697
+Sports medicine and arthroscopy review
+http://194.66.22.134/rss/journals//00132585/current.rss

@@ -1,0 +1,258 @@
+AANS Bulletin
+http://www.aans.org/bulletin/aansneurosurgeon_issue.rss
+Acta cirúrgica brasileira
+http://www.scielo.br/rss.php?pid=0102-8650&amp;lang=en
+American journal of surgery
+http://rss.sciencedirect.com/publication/science/00029610
+American journal of surgical pathology
+http://194.66.22.134/rss/journals//00000478/current.rss
+American journal of transplantation
+http://www3.interscience.wiley.com/rss/journal/118499698
+American surgeon
+http://www.ingentaconnect.com/content/sesc/tas/latest?format=rss
+Annales de chirurgie plastique et esthétique
+http://rss.sciencedirect.com/publication/science/6658
+Annals of Maxillofacial Surgery
+http://www.amsjournal.com/rssfeed.asp
+Annals of plastic surgery
+http://194.66.22.134/rss/journals//00000637/current.rss
+Annals of surgery
+http://194.66.22.134/rss/journals//00000658/current.rss
+Annals of the Royal College of Surgeons of England
+http://api.ingentaconnect.com/content/rcse/arcs/latest?format=rss
+Annals of thoracic surgery
+http://rss.sciencedirect.com/publication/science/00034975
+Annals of transplantation
+http://www.annalsoftransplantation.com/rss/
+ANZ journal of surgery
+http://www3.interscience.wiley.com/rss/journal/117992235
+Archives of facial plastic surgery
+http://archfaci.ama-assn.org/rss/current.xml
+Archives of otolaryngology -- head and neck surgery
+http://archotol.ama-assn.org/rss/current.xml
+Archives of surgery
+http://archsurg.ama-assn.org/rss/current.xml
+Arthroscopy
+http://rss.sciencedirect.com/publication/science/07498063
+Arthroscopy Techniques
+http://rss.sciencedirect.com/publication/science/22126287
+ASAIO journal
+http://194.66.22.134/rss/journals//00002480/current.rss
+Asian Journal of Endoscopic Surgery
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1758-5910
+Asian Journal of Neurosurgery
+http://www.asianjns.org/rssfeed.asp
+Asian journal of surgery
+http://rss.sciencedirect.com/publication/science/00033775
+Australian and New Zealand journal of surgery
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1445-2197
+BMC surgery
+http://www.biomedcentral.com/bmcsurg/rss
+Bone marrow transplantation
+http://www.nature.com/bmt/journal/vaop/ncurrent/rss.rdf
+Breast journal
+http://www3.interscience.wiley.com/rss/journal/118544343
+British journal of surgery
+http://www3.interscience.wiley.com/rss/journal/99019821
+British journal of urology
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1464-410X
+Canadian journal of surgery
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1064849
+Clinical transplantation
+http://www3.interscience.wiley.com/rss/journal/117988740
+Clinics in Colon and Rectal Surgery
+https://www.thieme-connect.com/rss/thieme/en/ccrs.xml
+Contemporary surgery
+http://www.contemporarysurgery.com/rssAll.asp
+Current opinion in organ transplantation
+http://194.66.22.134/rss/journals//00001433/current.rss
+Current opinion in otolaryngology and head and neck surgery
+http://194.66.22.134/rss/journals//00020840/current.rss
+Dermatologic surgery
+http://www3.interscience.wiley.com/rss/journal/118489334
+EJVES Extra
+http://rss.sciencedirect.com/publication/science/15333167
+Endoscopy
+http://www.thieme-connect.com/rss/thieme/en/endoscopy.xml
+European journal of cardio-thoracic surgery
+http://rss.sciencedirect.com/publication/science/10107940
+European Journal of Trauma and Emergency Surgery 
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2037777
+European Surgery
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2037781
+European surgical research
+http://content.karger.com/ProdukteDB/rss.asp?j=ESR
+Indian Journal of Otolaryngology and Head and Neck Surgery
+http://www.springerlink.com/content/2231-3796/?export=rss
+Indian journal of plastic surgery
+http://www.ijps.org/rssfeed.asp
+Indian journal of surgery
+http://search.proquest.com/publication.pubrssalertcreate:createpubrsslink/rssZonepubrssalertcreate?t:ac=prod.academic_publications_28297
+Interactive cardiovascular and thoracic surgery
+http://intl-icvts.ctsnetjournals.org/rss/current.xml
+International Journal of Shoulder Surgery
+http://www.internationalshoulderjournal.org/rssfeed.asp
+International journal of surgical pathology
+http://ijs.sagepub.com/rss/current.xml
+International seminars in surgical oncology
+http://www.issoonline.com/rss
+JAMA facial plastic surgery
+http://archfaci.jamanetwork.com/rssfeeds.aspx
+JAMA otolaryngology -- head and neck surgery
+http://archotol.jamanetwork.com/rssfeeds.aspx
+JAMA Surgery
+http://archsurg.jamanetwork.com/rss/site_20/76.xml
+Jornal Vascular Brasileiro
+http://www.scielo.br/rss.php?pid=1677-5449&amp;lang=en
+Journal of arthroplasty
+http://rss.sciencedirect.com/publication/science/08835403
+Journal of bone and joint surgery [0021-9355]
+http://www.ejbjs.org/rss/current.xml
+Journal of bone and joint surgery [0301-620X]
+http://www.jbjs.org.uk/rss/current.xml
+Journal of cardiac surgery
+http://www3.interscience.wiley.com/rss/journal/117965623
+Journal of cardiothoracic surgery
+http://www.cardiothoracicsurgery.org/rss/
+Journal of craniofacial surgery
+http://194.66.22.134/rss/journals//00001665/current.rss
+Journal of cutaneous and aestheic surgery
+http://www.jcasonline.com/rssfeed.asp
+Journal of Cutaneous and Aesthetic Surgery
+http://www.jcasonline.com/rssfeed.asp
+Journal of hand surgery [0363-5023]
+http://rss.sciencedirect.com/publication/science/03635023
+Journal of heart and lung transplantation
+http://rss.sciencedirect.com/publication/science/10532498
+Journal of investigative surgery
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1064871
+Journal of laparoendoscopic and advanced surgical techniques
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1064872
+Journal of Minimal Access Surgery
+http://www.journalofmas.com/rssfeed.asp
+Journal of NeuroInterventional Surgery
+http://jnis.bmj.com/rss/current.xml
+Journal of Neurological Surgery Part B: Skull Base
+https://www.thieme-connect.com/rss/thieme/en/10.1055-s-00000181.xml
+Journal of neurology, neurosurgery and psychiatry
+http://jnnp.bmjjournals.com/rss/current.xml
+Journal of Neurosurgery
+http://thejns.org/action/showFeed?ui=0&amp;mi=0&amp;ai=ru&amp;jc=jns&amp;type=etoc&amp;feed=rss
+Journal of Neurosurgery: Pediatrics
+http://thejns.org/action/showFeed?ui=0&amp;mi=3bfual&amp;ai=3f6&amp;jc=ped.1&amp;type=etoc&amp;feed=rss
+Journal of Neurosurgery: Spine
+http://thejns.org/action/showFeed?ui=0&amp;mi=0&amp;ai=rt&amp;jc=spi&amp;type=etoc&amp;feed=rss
+Journal of neurosurgical anesthesiology
+http://194.66.22.134/rss/journals//00008506/current.rss
+Journal of oral and maxillofacial surgery
+http://rss.sciencedirect.com/publication/science/02782391
+Journal of orthopaedic surgery
+http://www.josr-online.com/rss
+Journal of pediatric surgery
+http://rss.sciencedirect.com/publication/science/00223468
+Journal of pelvic medicine and surgery
+http://194.66.22.134/rss/journals//00146866/current.rss
+Journal of pelvic surgery
+http://194.66.22.134/rss/journals//00132581/current.rss
+Journal of Plastic Surgery and Hand Surgery
+http://informahealthcare.com/action/showFeed?ui=0&amp;mi=3s94u5&amp;ai=7v2i&amp;jc=phs&amp;type=etoc&amp;feed=rss
+Journal of plastic, reconstructive &amp; aesthetic surgery
+http://rss.sciencedirect.com/publication/science/29700
+Journal of reconstructive microsurgery
+http://www.thieme-connect.com/rss/thieme/en/jrm.xml
+Journal of shoulder and elbow surgery
+http://rss.sciencedirect.com/publication/science/6921
+Journal of Surgical Case Reports
+http://jscr.oxfordjournals.org/rss/current.xml
+Journal of surgical oncology
+http://www3.interscience.wiley.com/rss/journal/31873
+Journal of Surgical Radiology
+http://www.surgisphere.com/SurgRad/component/foobla_rss/1-journal-of-surgical-radiology.html
+Journal of surgical research
+http://rss.sciencedirect.com/publication/science/00224804
+Journal of Surgical Technique and Case Report
+http://www.jstcr.org/rssfeed.asp
+Journal of the American College of Surgeons
+http://rss.sciencedirect.com/publication/science/10727515
+Journal of thoracic and cardiovascular surgery
+http://rss.sciencedirect.com/publication/science/00225223
+Journal of vascular surgery
+http://rss.sciencedirect.com/publication/science/07415214
+Lasers in surgery and medicine
+http://www3.interscience.wiley.com/rss/journal/34073
+Liver transplantation
+http://www3.interscience.wiley.com/rss/journal/106570021
+Microsurgery
+http://www3.interscience.wiley.com/rss/journal/35757
+Neurosurgery online
+http://194.66.22.134/rss/journals//00006123/current.rss
+Neurosurgery quarterly
+http://194.66.22.134/rss/journals//00013414/current.rss
+Neurosurgical Focus
+http://thejns.org/action/showFeed?ui=0&amp;mi=0&amp;ai=rw&amp;jc=foc&amp;type=etoc&amp;feed=rss
+Open Access Surgery
+http://www.dovepress.com/feed.php?journal_id=40
+Ophthalmic plastic and reconstructive surgery
+http://194.66.22.134/rss/journals//00002341/current.rss
+Oral Surgery
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1752-248X
+Orthopaedic Surgery
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1757-7861
+Patient Safety in Surgery
+http://www.pssjournal.com/rss/
+Pediatric neurosurgery
+http://content.karger.com/ProdukteDB/rss.asp?j=PNE
+Pediatric transplantation
+http://www3.interscience.wiley.com/rss/journal/118490795
+Perioperative Medicine
+http://www.perioperativemedicinejournal.com/latest/rss
+Plastic and reconstructive surgery
+http://194.66.22.134/rss/journals//00006534/current.rss
+Revista Cubana de Cirugía
+http://scielo.sld.cu/rss.php?pid=0034-7493&amp;lang=es
+Seminars in plastic surgery
+https://www.thieme-connect.de/rss/thieme/en/sps.xml
+Shock
+http://194.66.22.134/rss/journals//00024382/current.rss
+Strategies in Trauma and Limb Reconstruction
+http://www.springerlink.com/content/1828-8936?sortorder=asc&amp;export=rss
+Surgery
+http://rss.sciencedirect.com/publication/science/00396060
+Surgery (Oxford)
+http://rss.sciencedirect.com/publication/science/02639319
+Surgical laparoscopy and endoscopy
+http://194.66.22.134/rss/journals//00013583/current.rss
+Surgical laparoscopy, endoscopy and percutaneous techniques [1051-7200]
+http://194.66.22.134/rss/journals//00019509/current.rss
+Surgical neurology
+http://rss.sciencedirect.com/publication/science/00903019
+Surgical Practice
+http://www3.interscience.wiley.com/rss/journal/118500710
+Techniques in foot and ankle surgery
+http://194.66.22.134/rss/journals//00132587/current.rss
+Techniques in hand and upper extremity surgery
+http://194.66.22.134/rss/journals//00130911/current.rss
+Techniques in knee surgery
+http://194.66.22.134/rss/journals//00132588/current.rss
+Techniques in shoulder and elbow surgery
+http://194.66.22.134/rss/journals//00132589/current.rss
+Thoracic and cardiovascular surgeon
+http://www.thieme-connect.com/rss/thieme/en/thoracic.xml
+Transactions of the ... Meeting of the American Surgical Association
+http://194.66.22.134/rss/journals//00153307/current.rss
+Transactions of the Meeting of the American Surgical Association
+http://194.66.22.134/rss/journals//00153307/current.rss
+Transplant infectious disease
+http://www3.interscience.wiley.com/rss/journal/117991831
+Transplant international
+http://www3.interscience.wiley.com/rss/journal/117999360
+Transplantation
+http://194.66.22.134/rss/journals//00007890/current.rss
+Vascular and endovascular surgery
+http://ves.sagepub.com/rss/current.xml
+World journal of surgical oncology
+http://www.wjso.com/rss/
+World Neurosurgery
+http://rss.sciencedirect.com/publication/science/18788750
+Xenotransplantation
+http://www3.interscience.wiley.com/rss/journal/118541358
