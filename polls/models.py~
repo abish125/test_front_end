@@ -1,4 +1,5 @@
 from django.db import models
+import datetime
 
 class RSSFeed(models.Model):
     link = models.CharField(max_length=1000)
@@ -27,4 +28,15 @@ class DOI(models.Model):
     doi = models.CharField(max_length=1000)
     name = models.CharField(max_length=1000)
     role = models.CharField(max_length=50)
+
+class User(models.Model):
+    name = models.CharField(max_length=100)
     
+class Note(models.Model):
+    uid = models.ForeignKey(User)
+    time_created = models.DateTimeField('time created')
+    title = models.CharField(max_length=1000)
+    content_text = models.CharField(max_length=10000)
+    #content_signal = models.ForeignKey(    
+
+

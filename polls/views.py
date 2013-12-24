@@ -3,7 +3,7 @@ from django.template import Context, loader
 from django.shortcuts import get_object_or_404, render
 from django.http import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
-from polls.models import RSSFeed, Specialty, Disease, Article, DOI
+from polls.models import RSSFeed, Specialty, Disease, Article, DOI, Notes
 import feedparser
 import string
 import os
@@ -162,3 +162,5 @@ def rs_import():
 '''       	     
        	 	
 def show_notes(request):
+    notes = Notes.objects.all()
+    return render(request, 'polls/show_notes.html', {'notes': notes})

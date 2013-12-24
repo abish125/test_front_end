@@ -29,14 +29,12 @@ class DOI(models.Model):
     name = models.CharField(max_length=1000)
     role = models.CharField(max_length=50)
 
-class User(models.Model):
-    name = models.CharField(max_length=100)
-    
 class Note(models.Model):
     uid = models.ForeignKey(User)
     time_created = models.DateTimeField('time created')
     title = models.CharField(max_length=1000)
     content_text = models.CharField(max_length=10000)
+    
     #content_signal = models.ForeignKey(    
-
+    #Note(1,1,"1986-12-05 12:12" ,'hello', "this is a note")  This worked after i made a user a = User(1, "andrew")
 
