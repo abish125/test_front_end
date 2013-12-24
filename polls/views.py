@@ -3,7 +3,7 @@ from django.template import Context, loader
 from django.shortcuts import get_object_or_404, render
 from django.http import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
-from polls.models import RSSFeed, Specialty, Disease, Article, DOI, Notes
+from polls.models import RSSFeed, Specialty, Disease, Article, DOI, Note
 import feedparser
 import string
 import os
