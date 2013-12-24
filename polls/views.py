@@ -161,3 +161,4 @@ def rs_import():
        	     
 '''       	     
        	 	
+def show_notes(request):
