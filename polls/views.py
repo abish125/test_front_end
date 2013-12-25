@@ -1,6 +1,6 @@
 # Create your views here.
 from django.template import Context, loader
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import get_object_or_404, render,render_to_response
 from django.http import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
 from polls.models import RSSFeed, Specialty, Disease, Article, DOI, Note
