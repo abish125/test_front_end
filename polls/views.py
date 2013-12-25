@@ -175,4 +175,5 @@ def rs_import():
        	 	
 def show_notes(request):
     notes = Note.objects.all()
-    return render(request, 'polls/show_notes.html', {'notes': notes})
+    n = range(len(notes))
+    return render(request, 'polls/show_notes.html', {'notes': notes, 'n': n})

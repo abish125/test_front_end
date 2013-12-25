@@ -27,7 +27,7 @@
 <script type="text/javascript">
     var container = document.getElementById('mytimeline');
     var data = [
-    {% for c in range(len(notes)) %}
+    {% for c in n %}
     {id: notes[c].id, content: notes[c].title, start: notes[c].time_created},
     {% endfor %}
     ];
