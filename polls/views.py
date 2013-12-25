@@ -8,6 +8,7 @@ from django.contrib.auth.models import User
 import feedparser
 import string
 import os
+from django.utils import simplejson
 
 from evernote_demo import show_evernotes
 
@@ -175,5 +176,10 @@ def rs_import():
        	 	
 def show_notes(request):
     notes = Note.objects.all()
-    n = range(len(notes))
-    return render(request, 'polls/show_notes.html', {'notes': notes, 'n': n})
+    #n = range(len(notes))
+    result = []
+    for n in notes:
+        result.append({"id": n.id, "content": n.title, "start": n.time_created})
+    return render_to_response('polls/show_notes.html', {'data': simplejson.dumps(result)}, mimetype='application/json')
+    #return render(request, 'polls/show_notes.html', {'notes': notes, 'n': n})
+
