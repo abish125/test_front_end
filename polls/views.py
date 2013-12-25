@@ -9,6 +9,9 @@ import feedparser
 import string
 import os
 
+from evernote_demo import show_evernotes
+
+
 def index(request):
     pw=range(11)
     pw[0]="http://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss"

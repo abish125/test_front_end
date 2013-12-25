@@ -17,5 +17,6 @@ urlpatterns = patterns('',
     url(r'^smart/$', views.smart, name='smart'),
     url(r'^smart2/$', views.smart2, name='smart2'),
     url(r'^show_notes/$', views.show_notes, name='show_notes'),
+    url(r'^show_evernotes/$', views.show_evernotes, name='show_evernotes'),
     url(r'^get_articles/$', views.get_articles, name='get_articles'),                       
 )
