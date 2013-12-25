@@ -64,7 +64,7 @@ def get_articles(request):
     feeds=files
     #f= open(os.path.join(BASE_DIR, 'rssfeeds'), 'r')
     #x= f.readlines()
-    return render(request, 'polls/get_articles', {'feeds':feeds})
+    return render(request, 'polls/get_articles.html', {'feeds':feeds})
 
 def claim(request):
     if 'q' in request.GET and request.GET['q']:
