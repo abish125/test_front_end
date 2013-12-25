@@ -1,0 +1,186 @@
+Accident Analysis and Prevention
+http://rss.sciencedirect.com/publication/science/00014575
+Africa research bulletin. Political, social, and cultural series
+http://www3.interscience.wiley.com/rss/journal/117994797
+American journal of epidemiology
+http://www.ingentaconnect.com/content/oup/aje/latest?format=rss
+American journal of health behavior
+http://api.ingentaconnect.com/content/png/ajhb/latest?format=rss
+American journal of preventive medicine
+http://rss.sciencedirect.com/publication/science/07493797
+American journal of public health
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1064838
+Annals of occupational hygiene, The
+http://annhyg.oxfordjournals.org/rss/
+Annual review of public health
+http://arjournals.annualreviews.org/action/showFeed?ai=ss&amp;jc=publhealth&amp;type=etoc&amp;feed=rss
+Archives of public health
+http://www.archpublichealth.com/latest/rss
+Australia and new zealand health policy
+http://www.anzhealthpolicy.com/rss
+Australian and New Zealand journal of public health
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1753-6405
+BMC health services research
+http://www.biomedcentral.com/bmchealthservres/rss/
+BMC international health and human rights
+http://www.biomedcentral.com/bmcinthealthhumrights/rss/
+BMC public health
+http://www.biomedcentral.com/bmcpublichealth/rss
+BMC women's health
+http://www.biomedcentral.com/bmcwomenshealth/rss
+Bulletin of the World Health Organization
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2435205
+Canada Communicable Disease Report
+http://www.phac-aspc.gc.ca/rss/ccdr-rmtc-eng.xml
+Canadian Journal of Public Health
+http://rss.proquest.com/rss?rss_id=595325
+Cancer causes and control
+http://www.springerlink.com/content/1573-7225/?sortorder=asc&amp;export=rss
+Community mental health journal
+http://www.springerlink.com/content/1573-2789/?sortorder=asc&amp;export=rss
+Drug and Alcohol Review
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1465-3362
+EcoHealth
+http://www.metapress.com/content/110812/?sortorder=asc&amp;export=rss
+Emerging themes in epidemiology
+http://www.ete-online.com/rss/
+Environment and behavior
+http://eab.sagepub.com/rss/current.xml
+Environmental health
+http://www.ehjournal.net/rss/
+Environmental health perspectives
+http://feeds.feedburner.com/ehpinpress
+Environmental health perspectives. Supplements
+http://feeds.feedburner.com/ehpinpress
+Environmental management and health
+http://www.emeraldinsight.com/info/RSSFeeds/InsightFeeds/meq_rss.xml
+Environmental science and technology
+http://pubs.acs.org/wls/alerts/rss/esthag.rss
+Environmental toxicology
+http://www3.interscience.wiley.com/rss/journal/10005202
+Epidemiologic perspectives and innovations
+http://www.epi-perspectives.com/rss
+Epidemiologic reviews
+http://epirev.oxfordjournals.org/rss/current.xml
+Epidemiology
+http://194.66.22.134/rss/journals//00001648/current.rss
+Euro surveillance
+http://www.eurosurveillance.org/Public/RSSFeed/RSS.aspx
+European Journal of Public Health
+http://eurpub.oupjournals.org/rss/recent.xml
+Family and community health
+http://194.66.22.134/rss/journals//00003727/current.rss
+Globalization and health
+http://www.globalizationandhealth.com/rss/
+Harm reduction journal
+http://www.harmreductionjournal.com/rss/
+Health affairs
+http://content.healthaffairs.org/rss/current.xml
+Health affairs Web exclusive
+http://content.healthaffairs.org/rss/current.xml
+health care manager
+http://194.66.22.134/rss/journals//00126450/current.rss
+Health education
+http://www.emeraldinsight.com/info/RSSFeeds/InsightFeeds/he_rss.xml
+Health education research
+http://her.oxfordjournals.org/rss/current.xml
+Health Policy and Planning
+http://heapol.oxfordjournals.org/rss/current.xml
+Health Promotion International
+http://heapro.oxfordjournals.org/rss/current.xml
+Health research policy and systems
+http://www.health-policy-systems.com/rss/
+HIV/AIDS surveillance report
+http://www.cdc.gov/hiv/rss/hiv.xml
+Hygiea Internationalis: an interdisciplinary journal for the history of public heal
+http://www.ep.liu.se/ej/hygiea/rss/rss-hygiea.xml
+Infection control and hospital epidemiology
+http://www.journals.uchicago.edu/cgi-bin/rss?jrnl=ICHE&amp;type=latestissue
+International Journal for Equity in Health
+http://www.equityhealthj.com/rss/
+International Journal of Epidemiology
+http://ije.oupjournals.org/rss/recent.xml
+International journal of health care quality assurance
+http://www.emeraldinsight.com/info/RSSFeeds/InsightFeeds/lhs_rss.xml
+International journal of health geographics
+http://www.ij-healthgeographics.com/rss/
+International journal of social psychiatry
+http://isp.sagepub.com/rss/current.xml
+International journal of technology assessment in health care
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=04iujwW3mbOmXqwOTG60NcqodJb8C-l2AhFyLt5zwHn
+International Quarterly of Community Health Education
+http://www.metapress.com/content/300315/?sortorder=asc&amp;export=rss
+Journal of community health
+http://www.springerlink.com/content/1573-3610/?sortorder=asc&amp;export=rss
+Journal of environmental health
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1064960
+Journal of Ethnobiology and Ethnomedicine
+http://www.ethnobiomed.com/rss
+Journal of Exposure Science and Environmental Epidemiology 
+http://www.nature.com/jes/current_issue/rss/
+Journal of health care for the poor and underserved
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2435231
+Journal of health politics, policy and law
+http://feeds.muse.jhu.edu/journals/journal_of_health_politics_policy_and_law/latest_issues.xml
+Journal of patient safety
+http://194.66.22.134/rss/journals//01209203/current.rss
+Journal of primary prevention
+http://www.springerlink.com/content/1573-6547/?sortorder=asc&amp;export=rss
+Journal of Public Health = Zeitschrift für Gesundheitswissenschaften
+http://www.springerlink.com/content/1613-2238/?sortorder=asc&amp;export=rss
+Journal of public health management and practice
+http://194.66.22.134/rss/journals//00124784/current.rss
+Journal of the royal society for the promotion of health
+http://rsh.sagepub.com/rss/current.xml
+Journal of urban health
+http://www.springerlink.com/content/1468-2869/?sortorder=asc&amp;export=rss
+Medical care
+http://194.66.22.134/rss/journals//00005650/current.rss
+Medical care research and review
+http://mcr.sagepub.com/rss/current.xml
+Medical decision making
+http://mdm.sagepub.com/rss/current.xml
+Milbank quarterly
+http://www3.interscience.wiley.com/rss/journal/118541241
+Morbidity and mortality weekly report. CDC surveillance summaries [1546-0738]
+http://www.cdc.gov/mmwr/rss/mmwr.xml
+Morbidity and mortality weekly report. Recommendations and reports
+http://www.cdc.gov/mmwr/rss/mmwr.xml
+Perspectives in Public Health
+http://rsh.sagepub.com/rss
+Population health metrics
+http://www.pophealthmetrics.com/rss/
+Population research and policy review
+http://www.springerlink.com/content/1573-7829/?sortorder=asc&amp;export=rss
+Preventing chronic disease
+http://www.cdc.gov/pcd/rss/pcd.xml
+Public health
+http://rss.sciencedirect.com/publication/science/00333506
+Public health nursing
+http://www3.interscience.wiley.com/rss/journal/118533651
+Qualitative health research
+http://qhr.sagepub.com/rss/current.xml
+Quality management in health care
+http://194.66.22.134/rss/journals//00019514/current.rss
+Revista Cubana de Salud Pública
+http://scielo.sld.cu/rss.php?pid=0864-3466&amp;lang=es
+Revista de saúde pública
+http://www.scielo.br/rss.php?pid=0034-8910&amp;lang=en
+Revista Panamericana de Salud Pública
+http://www.ingentaconnect.com/content/paho/pajph/latest?format=rss
+Salud pública de México
+http://www.scielosp.org/rss.php?pid=0036-3634&amp;lang=en
+Sex Education
+http://www.ingentaconnect.com/content/routledg/csed/latest?format=rss
+Sociology of health and illness
+http://www3.interscience.wiley.com/rss/journal/118532195
+Studies in family planning
+http://www3.interscience.wiley.com/rss/journal/118493830
+Substance abuse treatment, prevention, and policy
+http://www.substanceabusepolicy.com/rss/
+Tobacco control
+http://tc.bmjjournals.com/rss/current.xml
+Tropical Medicine and International Health
+http://pipes.yahoo.com/pipes/pipe.run?_id=c70bf10dc5843096a76e94d8f15459d3&amp;_render=rss&amp;url=http%3A%2F%2Fwww3.interscience.wiley.com%2Frss%2Fjournal%2F118506842
+Waste management and research
+http://wmr.sagepub.com/rss/current.xml

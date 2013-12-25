@@ -1,0 +1,56 @@
+Aging and mental health
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2633704
+American journal of physical medicine and rehabilitation
+http://194.66.22.134/rss/journals//00002060/current.rss
+Aphasiology
+http://www.ingentaconnect.com/content/psych/paph/latest?format=rss
+Archives of physical medicine and rehabilitation
+http://rss.sciencedirect.com/publication/science/00039993
+Australian occupational therapy journal
+http://www.ingentaconnect.com/content/bsc/aot/latest?format=rss
+Clinical orthopaedics and related research
+http://www.springerlink.com/content/120901/?sortorder=asc&amp;export=rss
+Developmental Neurorehabilitation
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2037712
+Disability and rehabilitation
+http://informahealthcare.com/action/showFeed?ui=0&amp;mi=3s94u5&amp;ai=1lir&amp;jc=dre&amp;type=etoc&amp;feed=rss
+HPA Resource
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2038621
+International journal of rehabilitation research
+http://194.66.22.134/rss/journals//00004356/current.rss
+International Journal of Therapy and Rehabilitation
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2038775
+Journal of arthroplasty
+http://rss.sciencedirect.com/publication/science/08835403
+Journal of burn care and rehabilitation
+http://194.66.22.134/rss/journals//00004630/current.rss
+Journal of Burn Care and Research
+http://194.66.22.134/rss/journals//01253092/current.rss
+Journal of cardiopulmonary rehabilitation
+http://194.66.22.134/rss/journals//00008483/current.rss
+journal of head trauma rehabilitation
+http://194.66.22.134/rss/journals//00001199/current.rss
+Journal of neuroengineering and rehabilitation
+http://www.jneuroengrehab.com/rss/
+Journal of orthopaedic and sports physical therapy
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=0Oqr798sG9mliJMwEZpTfThl3ttUsvqIRGpWUgYffNX
+Military medicine
+http://api.ingentaconnect.com/content/amsus/zmm/latest?format=rss
+Neurorehabilitation and neural repair
+http://nnr.sagepub.com/rss/current.xml
+Physical therapy
+http://www.ptjournal.org/rss/ahead.xml
+PM &amp; R
+http://rss.sciencedirect.com/publication/science/43697
+Quality of life research
+http://www.springerlink.com/content/1573-2649/?sortorder=asc&amp;export=rss
+Rehabilitation counseling bulletin
+http://rcb.sagepub.com/rss/current.xml
+Sexuality and disability
+http://www.ingentaconnect.com/content/klu/sedi/latest?format=rss
+Sports Medicine, Arthroscopy, Rehabilitation, Therapy and Technology
+http://www.smarttjournal.com/rss/
+Techniques in foot and ankle surgery
+http://194.66.22.134/rss/journals//00132587/current.rss
+Topics in geriatric rehabilitation
+http://194.66.22.134/rss/journals//00013614/current.rss

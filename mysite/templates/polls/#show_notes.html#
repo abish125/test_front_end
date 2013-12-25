@@ -6,4 +6,3 @@
     <li>{{ n.uid }} -- {{ n.time_created }} title: {{ n.title }}---content: {{n.content_text}}</li>
 {% endfor %}
 </ul>
-

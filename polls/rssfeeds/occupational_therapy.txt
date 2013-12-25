@@ -1,0 +1,26 @@
+Asian Journal of Occupational Therapy
+https://www.jstage.jst.go.jp/AF05S010NewRssDld?btnaction=JT0040&amp;sryCd=asiajot&amp;rssLang=en
+Australian occupational therapy journal
+http://www.ingentaconnect.com/content/bsc/aot/latest?format=rss
+British journal of occupational therapy
+http://api.ingentaconnect.com/content/cot/bjot/latest?format=rss
+Canadian journal of occupational therapy
+http://api.ingentaconnect.com/content/caot/cjot/latest?format=rss
+Hong Kong Journal of Occupational Therapy
+http://www.sciencedirect.com/science?_ob=RSSURL&amp;_method=setup&amp;_cid=276232&amp;_acct=C000020958&amp;_version=1&amp;_userid=11050971&amp;md5=81678bd1962aca9268b4be2c8ae0afeb
+Indian Journal of Occupational Therapy
+http://www.sciencedirect.com/science?_ob=RSSURL&amp;_method=setup&amp;_cid=276232&amp;_acct=C000020958&amp;_version=1&amp;_userid=11050971&amp;md5=81678bd1962aca9268b4be2c8ae0afeb
+Journal of Electromyography and Kinesiology
+http://rss.sciencedirect.com/publication/science/10506411
+journal of head trauma rehabilitation
+http://194.66.22.134/rss/journals//00001199/current.rss
+Neurorehabilitation and neural repair
+http://nnr.sagepub.com/rss/current.xml
+Occupational Therapy in Health Care
+http://informahealthcare.com/action/showFeed?ui=0&amp;mi=3s94u5&amp;ai=1ju2&amp;jc=ohc&amp;type=etoc&amp;feed=rss
+Occupational therapy in mental health
+http://www.tandfonline.com/action/showFeed?ui=0&amp;mi=5zeshq&amp;ai=2d6&amp;jc=womh20&amp;type=etoc&amp;feed=rss
+Occupational therapy international
+http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1557-0703
+Physical and Occupational Therapy in Pediatrics
+http://informahealthcare.com/action/showFeed?ui=0&amp;mi=3s94u5&amp;ai=1ozx&amp;jc=pop&amp;type=etoc&amp;feed=rss

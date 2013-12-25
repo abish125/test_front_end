@@ -1,0 +1,16 @@
+<h1>list of articles</h1>
+<br>
+
+<ul>
+{% for f in feeds %}
+<li> {{f}} </li>
+{% endfor %}
+</ul>
+
+<!--
+<ul>
+{% for a in articles %}
+    <li>{{ a.title }} -- {{ a.date }} specialty {{ a.specialty }}---disease: {{a.disease}}---feed {{a.feed}}</li>
+{% endfor %}
+</ul>
+//-->

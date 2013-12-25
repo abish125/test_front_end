@@ -1,0 +1,28 @@
+American Family Physician
+http://rss.proquest.com/rss?rss_id=591277
+BMC family practice
+http://www.biomedcentral.com/bmcfampract/rss/
+British journal of general practice
+http://api.ingentaconnect.com/content/rcgp/bjgp/latest?format=rss
+Canadian family physician
+http://www.cfp.ca/rss
+Community practitioner
+http://api.ingentaconnect.com/content/cp/cp/latest?format=rss
+Family and community health
+http://194.66.22.134/rss/journals//00003727/current.rss
+Family practice
+http://fampra.oupjournals.org/rss/recent.xml
+JAMA
+http://jama.jamanetwork.com/rss/site_3/67.xml
+Journal of family practice
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1064961
+Journal of rural health
+http://www3.interscience.wiley.com/rss/journal/118541283
+journal of the American Board of Family Practice
+http://www.jabfm.org/rss/current.xml
+lancet [0140-6736]
+http://rss.sciencedirect.com/publication/science/01406736
+New England journal of medicine
+http://content.nejm.org/rss/current.xml
+Postgraduate medical journal
+http://pmj.bmjjournals.com/rss/current.xml

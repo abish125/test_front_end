@@ -1,0 +1,290 @@
+AACN Advanced Critical Care
+http://194.66.22.134/rss/journals//01256961/current.rss
+ABNF journal
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1064889
+ACCNS Journal for Community Nurses
+http://search.informit.com.au/rss;res=IELHEA;issn=1325-670X
+Acta Paulista de Enfermagem
+http://www.scielo.br/rss.php?pid=0103-2100&amp;lang=en
+American journal of critical care
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2086387
+American Journal of Nursing
+http://194.66.22.134/rss/journals//00000446/current.rss
+American nurse
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1066257
+Annual Review of Nursing Research
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2032831
+ANS, Advances in nursing science
+http://194.66.22.134/rss/journals//00012272/current.rss
+AORN journal
+http://rss.sciencedirect.com/publication/science/00012092
+Applied nursing research
+http://rss.sciencedirect.com/publication/science/08971897
+Archives of psychiatric nursing
+http://rss.sciencedirect.com/publication/science/08839417
+Arizona Nurse
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2032853
+Australasian Emergency Nursing Journal
+http://rss.sciencedirect.com/publication/science/00028536
+Australian nursing journal
+http://search.proquest.com/publication:rsslink?t:ac=prod.academic_publications_33490
+AWHONN lifelines
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1751-486X
+Birth
+http://www3.interscience.wiley.com/rss/journal/118533571
+BMC nursing
+http://www.biomedcentral.com/bmcnurs/rss/
+British Journal of Cardiac Nursing
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2036481
+British Journal of Nursing
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2036486
+British Journal of School Nursing
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2036487
+Canadian Nurse
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2036515
+Cancer nursing
+http://194.66.22.134/rss/journals//00002820/current.rss
+Cancer Nursing Practice
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2036517
+CANNT Journal
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2036520
+CIN: Computers, Informatics, Nursing
+http://194.66.22.134/rss/journals//00024665/current.rss
+Clinical Journal of Oncology Nursing
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2037621
+Clinical nurse specialist
+http://194.66.22.134/rss/journals//00002800/current.rss
+Clinical nursing research
+http://cnr.sagepub.com/rss/current.xml
+Clinical Simulation in Nursing
+http://rss.sciencedirect.com/publication/science/18761399
+Colorado Nurse
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2037672
+Community practitioner
+http://api.ingentaconnect.com/content/cp/cp/latest?format=rss
+Computers, informatics, nursing
+http://194.66.22.134/rss/journals//00024665/current.rss
+Connecticut Nursing News
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2037693
+Creative Nursing
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2037699
+Critical care nurse
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2045762
+Critical Care Nursing Clinics of North America 
+http://ccnursing.theclinics.com/current.rss
+Critical Care Nursing Quarterly
+http://194.66.22.134/rss/journals//00002727/current.rss
+Dimensions of critical care nursing
+http://194.66.22.134/rss/journals//00003465/current.rss
+Emergency Nurse
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2037764
+European diabetes nursing
+http://www3.interscience.wiley.com/rss/journal/109710387
+European Journal of Oncology Nursing
+http://rss.sciencedirect.com/publication/science/14623889
+Evidence-based nursing
+http://ebn.bmj.com/rss/current.xml
+Florida nurse
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1064923
+Gastroenterology nursing
+http://194.66.22.134/rss/journals//00125817/current.rss
+Georgia Nursing
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2038491
+Geriatric nursing
+http://rss.sciencedirect.com/publication/science/01974572
+Health Care for Women International
+http://www.tandfonline.com/action/showFeed?ui=0&amp;mi=4owdr4&amp;ai=18n&amp;jc=uhcw20&amp;type=etoc&amp;feed=rss
+Holistic nursing practice
+http://194.66.22.134/rss/journals//00004650/current.rss
+Home healthcare nurse
+http://194.66.22.134/rss/journals//00004045/current.rss
+Intensive and critical care nursing
+http://rss.sciencedirect.com/publication/science/09643397
+InterAction
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2038724
+International Emergency Nursing
+http://feeds.sciencedirect.com/publication/science/1755599X
+International journal of mental health nursing
+http://www3.interscience.wiley.com/rss/journal/117970128
+International Journal of Nursing Knowledge
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)2047-3095
+International journal of nursing practice
+http://www3.interscience.wiley.com/rss/journal/118000587
+International journal of nursing studies
+http://rss.sciencedirect.com/publication/science/00207489
+international journal of nursing terminologies and classifications
+http://www3.interscience.wiley.com/rss/journal/118516889
+International Journal of Older People Nursing
+http://www3.interscience.wiley.com/rss/journal/118500962
+International Journal of Orthopaedic and Trauma Nursing
+http://rss.sciencedirect.com/publication/science/18781241
+International Journal of Urological Nursing 
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1749-771X
+International nursing review
+http://www3.interscience.wiley.com/rss/journal/118482855
+Issues in comprehensive pediatric nursing
+http://informahealthcare.com/action/showFeed?ui=0&amp;mi=3s94u5&amp;ai=1oyw&amp;jc=cpn&amp;type=etoc&amp;feed=rss
+Issues in mental health nursing
+http://informahealthcare.com/action/showFeed?ui=0&amp;mi=3s94u5&amp;ai=1ozt&amp;jc=mhn&amp;type=etoc&amp;feed=rss
+Japan Journal of Nursing Science
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1742-7924
+JONA'S healthcare law, ethics, and regulation
+http://194.66.22.134/rss/journals//00128488/current.rss
+Journal for Nurse Practitioners
+http://rss.sciencedirect.com/publication/science/29676
+Journal for nurses in staff development
+http://194.66.22.134/rss/journals//00124645/current.rss
+Journal for specialists in pediatric nursing
+http://www3.interscience.wiley.com/rss/journal/118508819
+Journal of addictions nursing
+http://ovidsp.ovid.com/rss/journals/00060867/current.rss
+Journal of advanced nursing
+http://www3.interscience.wiley.com/rss/journal/118486802
+Journal of cardiovascular nursing
+http://194.66.22.134/rss/journals//00005082/current.rss
+Journal of child and adolescent psychiatric nursing
+http://www3.interscience.wiley.com/rss/journal/118514313
+Journal of Christian Nursing
+http://194.66.22.134/rss/journals//00005217/current.rss
+Journal of clinical nursing
+http://www3.interscience.wiley.com/rss/journal/118513605
+Journal of Community Health Nursing
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1064953
+journal of continuing education in nursing
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2642193
+Journal of emergency nursing
+http://rss.sciencedirect.com/publication/science/00991767
+Journal of evaluation in clinical practice
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1415229
+Journal of family nursing
+http://jfn.sagepub.com/rss/current.xml
+Journal of Gerontological Nursing
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2039555
+Journal of hospice and palliative nursing
+http://194.66.22.134/rss/journals//00129191/current.rss
+Journal of infusion nursing
+http://194.66.22.134/rss/journals//00129804/current.rss
+Journal of neonatal nursing
+http://rss.sciencedirect.com/publication/science/28537
+Journal of Neuroscience Nursing
+http://194.66.22.134/rss/journals//01376517/current.rss
+Journal of nursing administration
+http://194.66.22.134/rss/journals/00005110/current.rss
+Journal of Nursing and Healthcare of Chronic Illness
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2048693
+Journal of nursing care quality
+http://194.66.22.134/rss/journals//00001786/current.rss
+Journal of nursing management
+http://www3.interscience.wiley.com/rss/journal/118535815
+Journal of Nursing Measurement
+http://api.ingentaconnect.com/content/springer/nmeas/latest?format=rss
+Journal of Nursing Research
+http://194.66.22.134/rss/journals//00134372/current.rss
+Journal of nursing scholarship
+http://www3.interscience.wiley.com/rss/journal/118508746
+Journal of obstetric, gynecologic, and neonatal nursing
+http://www3.interscience.wiley.com/rss/journal/118495258
+Journal of orthopaedic nursing
+http://rss.sciencedirect.com/publication/science/13613111
+Journal of pediatric nursing
+http://rss.sciencedirect.com/publication/science/08825963
+Journal of pediatric oncology nursing
+http://jpo.sagepub.com/rss/current.xml
+Journal of perianesthesia nursing
+http://rss.sciencedirect.com/publication/science/10899472
+Journal of perinatal and neonatal nursing
+http://194.66.22.134/rss/journals//00005237/current.rss
+Journal of professional nursing
+http://rss.sciencedirect.com/publication/science/87557223
+Journal of Psychiatric and Mental Health Nursing
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2039642
+Journal of Psychosocial Nursing and Mental Health Services
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2039646
+Journal of radiology nursing
+http://rss.sciencedirect.com/publication/science/20461
+Journal of the American Academy of Nurse Practitioners
+http://www3.interscience.wiley.com/rss/journal/118489147
+Journal of the American Psychiatric Nurses Association
+http://jap.sagepub.com/rss/current.xml
+Journal of the Association for Vascular Access
+http://rss.sciencedirect.com/publication/science/15528855
+Journal of the Association of Nurses in AIDS Care
+http://rss.sciencedirect.com/publication/science/10553290
+Journal of trauma nursing
+http://194.66.22.134/rss/journals//00043860/current.rss
+Journal of vascular nursing
+http://rss.sciencedirect.com/publication/science/6935
+Journal of wound, ostomy, and continence nursing
+http://194.66.22.134/rss/journals//00152192/current.rss
+MCN, the American journal of maternal child nursing
+http://194.66.22.134/rss/journals//00005721/current.rss
+New Zealand College of Midwives Journal
+http://www.midwife.org.nz/index.cfm/9,114,0,rss
+Newborn and infant nursing reviews
+http://rss.sciencedirect.com/publication/science/12938
+Nurse education today
+http://rss.sciencedirect.com/publication/science/02606917
+Nurse educator
+http://194.66.22.134/rss/journals//00006223/current.rss
+Nurse leader
+http://rss.sciencedirect.com/publication/science/13107
+Nurse practitioner
+http://194.66.22.134/rss/journals//00006205/current.rss
+Nursing
+http://194.66.22.134/rss/journals//00152193/current.rss
+Nursing administration quarterly
+http://194.66.22.134/rss/journals//00006216/current.rss
+Nursing and health sciences
+http://www3.interscience.wiley.com/rss/journal/118498456
+Nursing economic$
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2992931
+Nursing ethics
+http://nej.sagepub.com/rss/current.xml
+Nursing for Women's Health
+http://www3.interscience.wiley.com/rss/journal/117982957
+Nursing forum
+http://www3.interscience.wiley.com/rss/journal/117984993
+Nursing inquiry
+http://www3.interscience.wiley.com/rss/journal/117979516
+Nursing Leadership
+http://www.longwoods.com/rss/nl.rss
+Nursing made incredibly easy!
+http://194.66.22.134/rss/journals//00152258/current.rss
+Nursing management
+http://194.66.22.134/rss/journals//00006247/current.rss
+Nursing outlook
+http://rss.sciencedirect.com/publication/science/00296554
+Nursing philosophy
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1466-769X
+Nursing research
+http://194.66.22.134/rss/journals//00006199/current.rss
+Nursing science quarterly
+http://nsq.sagepub.com/rss/current.xml
+Nursing Times
+http://www.nursingtimes.net/XmlServers/navsectionRSS.aspx?navsectioncode=512
+Oncology nursing forum
+http://www.metapress.com/content/120390/?sortorder=asc&amp;export=rss
+OR Nurse
+http://194.66.22.134/rss/journals//01271211/current.rss
+Orthopaedic nursing
+http://194.66.22.134/rss/journals//00006416/current.rss
+Pain management nursing
+http://rss.sciencedirect.com/publication/science/6982
+Professional Case Management
+http://194.66.22.134/rss/journals//01269241/current.rss
+Progress in Cardiovascular Nursing
+http://www3.interscience.wiley.com/rss/journal/117998960
+Public health nursing
+http://www3.interscience.wiley.com/rss/journal/118533651
+Research in nursing and health
+http://www3.interscience.wiley.com/rss/journal/33706
+Scandinavian journal of caring sciences
+http://www3.interscience.wiley.com/rss/journal/118520664
+Seminars in oncology nursing
+http://rss.sciencedirect.com/publication/science/07492081
+Teaching and Learning in Nursing
+http://rss.sciencedirect.com/publication/science/15573087
+Western journal of nursing research
+http://wjn.sagepub.com/rss/current.xml
+Worldviews on evidence-based nursing
+http://www3.interscience.wiley.com/rss/journal/118546298
