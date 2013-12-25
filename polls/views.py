@@ -59,7 +59,7 @@ def search_form(request):
     return render(request, 'polls/search_form.html')
 
 def get_articles(request):
-    BASE_DIR = os.path.dir(os.path.abspath(__file__))
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     path, dirs, files = os.walk(os.path.join(BASE_DIR, 'rssfeeds')).next()
     feeds=files
     #f= open(os.path.join(BASE_DIR, 'rssfeeds'), 'r')
