@@ -1,3 +1,4 @@
+<!--
 <h1> list of notes</h1>
 <br>
 
@@ -6,7 +7,20 @@
     <li>{{ n.uid }} -- {{ n.time_created }} title: {{ n.title }}---content: {{n.content_text}}</li>
 {% endfor %}
 </ul>
+//-->
 
+<!doctype html>
+<html>
+<head>
+    <title>Timeline | Basic demo</title>
+    <script src="http://visjs.org/vis.js"></script>
+
+    <style type="text/css">
+        body, html {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
 <body>
 <div id="mytimeline"></div>
 
