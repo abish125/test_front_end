@@ -179,7 +179,7 @@ def show_notes(request):
     #n = range(len(notes))
     result = []
     for n in notes:
-        result.append({"id": n.id, "content": n.title, "start": n.time_created})
+        result.append({"id": n.id, "content": n.title, "start": n.time_created.date()})
     return render_to_response('polls/show_notes.html', {'data': simplejson.dumps(result)}, mimetype='application/json')
     #return render(request, 'polls/show_notes.html', {'notes': notes, 'n': n})
 
