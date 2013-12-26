@@ -1,5 +1,6 @@
 var container = document.getElementById('mytimeline');
 var data = JSON.parse({{myposts}});
+document.write(data);
 //[
 //{id: 1, content: 'item 1', start: '2013-04-20'},
 //{id: 2, content: 'item 2', start: '2013-04-14'},
