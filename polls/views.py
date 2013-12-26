@@ -180,6 +180,6 @@ def show_notes(request):
     result = []
     for n in notes:
         result.append({'id': n.id, 'content': n.title, 'start': n.time_created.date().isoformat()})
-    #return render_to_response('polls/show_notes.html', {'data': simplejson.dumps(result)}, mimetype='application/json')
-    return HttpResponse(simplejson.dumps(result))
+    c = Context({'myposts' : simplejson.dumps(result)})
+    return HttpResponse(c)
 
