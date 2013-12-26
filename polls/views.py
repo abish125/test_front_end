@@ -182,5 +182,5 @@ def show_notes(request):
     for n in notes:
         result.append({'start': n.time_created.date().isoformat(),'content': n.title, 'id': n.id})
     c = Context({'myposts' :simplejson.dumps(result)})
-    return HttpResponse(simplejson.dumps(result))
-    #return render(request, 'polls/show_notes.html', c)
+    #return HttpResponse(simplejson.dumps(result))
+    return render(request, 'polls/show_notes.html', c)
