@@ -1,5 +1,4 @@
-function mytimeline()
-{    
+<script type="text/javascript">
     var container = document.getElementById('mytimeline');
     var data = [
         {id: 1, content: 'item 1', start: '2013-04-20'},
@@ -11,4 +10,4 @@ function mytimeline()
     ];
     var options = {};
     var timeline = new vis.Timeline(container, data , options);
-}
+</script>
