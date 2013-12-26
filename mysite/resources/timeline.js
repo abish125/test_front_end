@@ -1,5 +1,6 @@
+//function timeline(data)
 var container = document.getElementById('mytimeline');
-var data = [
+var data = [ 
 	    {id: 1, content: 'item 1', start: '2013-04-20'},
 	    {id: 2, content: 'item 2', start: '2013-04-14'},
 	    {id: 3, content: 'item 3', start: '2013-04-18'},
