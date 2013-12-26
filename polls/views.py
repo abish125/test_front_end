@@ -8,7 +8,7 @@ from django.contrib.auth.models import User
 import feedparser
 import string
 import os
-from django.utils import simplejson
+from django.utils import simplejson,json
 
 from evernote_demo import show_evernotes
 
@@ -180,6 +180,6 @@ def show_notes(request):
     result = []
     for n in notes:
         result.append({'id': n.id, 'content': n.title, 'start': n.time_created.date().isoformat()})
-    c = Context({'myposts' : simplejson.dumps(result)})
+    c = Context({'myposts' : json.dumps(result)})
     return render(request, 'polls/show_notes.html', c)
 
