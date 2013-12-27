@@ -188,4 +188,4 @@ def show_notes(request):
 
 
 def search_scholar(request):
-    return HttpResponse(txt("innovation", "succi", 5))
+    return HttpResponse(str(txt("innovation", "succi", 5)))
