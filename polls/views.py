@@ -10,6 +10,7 @@ import string
 import os
 from django.utils import simplejson
 import json
+from scholar2 import txt
 
 
 def index(request):
@@ -182,3 +183,8 @@ def show_notes(request):
     c = Context({'myposts' :simplejson.dumps(result)})
     #return HttpResponse(simplejson.dumps(result))
     return render(request, 'polls/show_notes.html', c)
+
+
+def search_scholar(request):
+    s=str(txt("innovation", "succi", 1))
+    return render(request, 'polls/search_scholar', {'s':s})

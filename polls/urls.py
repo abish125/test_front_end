@@ -17,9 +17,12 @@ urlpatterns = patterns('',
     url(r'^convert_text2/$', views.convert_text2, name='convert_text2'),
     url(r'^smart/$', views.smart, name='smart'),
     url(r'^smart2/$', views.smart2, name='smart2'),
+    url(r'^get_articles/$', views.get_articles, name='get_articles'),
+    url(r'^search_scholar/$', views.search_scholar, name='search_scholar'),
+
+    # Smarter Doctor / Evernote prototyping.
     url(r'^show_notes/$', views.show_notes, name='show_notes'),
     url(r'^show_evernotes/$', evernote_demo.show_evernotes, name='show_evernotes'),
     url(r'^show_evernote_timeline/$', evernote_demo.evernote_timeline_page, name='evernote_timeline_page'),
     url(r'^_/get_evernote_timeline_data/$', evernote_demo.get_evernote_timeline_data, name='get_evernote_timeline_data'),
-    url(r'^get_articles/$', views.get_articles, name='get_articles'),                       
 )

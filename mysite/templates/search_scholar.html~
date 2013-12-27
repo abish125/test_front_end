@@ -1,13 +1,3 @@
-<!--
-<h1> list of notes</h1>
-<br>
-
-<ul>
-{% for n in notes %}
-    <li>{{ n.uid }} -- {{ n.time_created }} title: {{ n.title }}---content: {{n.content_text}}</li>
-{% endfor %}
-</ul>
-//-->
 
 <!doctype html>
 <html>
