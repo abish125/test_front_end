@@ -1,6 +1,6 @@
 # Create your views here.
 from django.template import Context, loader
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import get_object_or_404, render,render_to_response
 from django.http import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
 from polls.models import RSSFeed, Specialty, Disease, Article, DOI, Note
@@ -8,6 +8,8 @@ from django.contrib.auth.models import User
 import feedparser
 import string
 import os
+from django.utils import simplejson
+import json
 
 from evernote_demo import show_evernotes
 
@@ -175,4 +177,10 @@ def rs_import():
        	 	
 def show_notes(request):
     notes = Note.objects.all()
-    return render(request, 'polls/show_notes.html', {'notes': notes})
+    #n = range(len(notes))
+    result = []
+    for n in notes:
+        result.append({'start': n.time_created.date().isoformat(),'content': n.title, 'id': n.id})
+    c = Context({'myposts' :simplejson.dumps(result)})
+    #return HttpResponse(simplejson.dumps(result))
+    return render(request, 'polls/show_notes.html', c)

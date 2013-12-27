@@ -8,6 +8,7 @@
     <script type=text/javascript src="{{MEDIA_URL}}/index.js"></script>
     <script type=text/javascript src="{{MEDIA_URL}}/jquery.flot.js"></script>
     <script type=text/javascript src="{{MEDIA_URL}}/jquery.flot.bubble.js"></script>
+    <script type=text/css src="{{MEDIA_URL}}/layout.css"></script>
  </head>
  <body>
     <h1>Flot Examples</h1>
