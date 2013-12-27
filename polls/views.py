@@ -11,6 +11,7 @@ import os
 from django.utils import simplejson
 import json
 from scholar2 import txt
+from BeautifulSoup import BeautifulSoup
 
 from evernote_demo import show_evernotes
 
