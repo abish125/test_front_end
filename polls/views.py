@@ -11,8 +11,6 @@ import os
 from django.utils import simplejson
 import json
 
-from evernote_demo import show_evernotes
-
 
 def index(request):
     pw=range(11)
