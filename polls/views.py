@@ -121,7 +121,7 @@ def convert_text2(request):
     t=[]
     x = range(16)
     for y in x:
-	t=t+[request.GET[str(y+1)]]
+	   t=t+[request.GET[str(y+1)]]
 
     t=t+["hello"]+["hello"]+["hello"]
 
