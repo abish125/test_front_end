@@ -32,9 +32,9 @@ demo.Treemap3d = function() {
         _renderer.shadowMapAutoUpdate = true;
        
         selection.node().appendChild(_renderer.domElement);
-        _buttonBarDiv = selection.append("div")
+        //_buttonBarDiv = selection.append("div")
+        _buttonBarDiv= d3.select("body").append("div")
             .attr("class", "controls")
-            .style('top',"500px").style('left',"500px");
         _buttonBarDiv.append("button")
             .text("ZScale: 0")
             .on("click", function() {
