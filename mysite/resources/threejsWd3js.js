@@ -37,6 +37,7 @@ demo.Treemap3d = function() {
             .attr("class", "controls")
         _buttonBarDiv.append("button")
             .text("ZScale: 0")
+            .style('top',"500px").style('left',"500px")
             .on("click", function() {
                 _zmetric = "base";
                 transform();
