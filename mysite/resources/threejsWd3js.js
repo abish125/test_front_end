@@ -33,7 +33,8 @@ demo.Treemap3d = function() {
        
         selection.node().appendChild(_renderer.domElement);
         _buttonBarDiv = selection.append("div")
-            .attr("class", "controls");
+            .attr("class", "controls")
+            .style('top',"500px").style('left',"500px");
         _buttonBarDiv.append("button")
             .text("ZScale: 0")
             .on("click", function() {
