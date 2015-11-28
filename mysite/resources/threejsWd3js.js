@@ -32,7 +32,6 @@ demo.Treemap3d = function() {
         _renderer.shadowMapAutoUpdate = true;
        
         selection.node().appendChild(_renderer.domElement);
-        debugger;
         _buttonBarDiv = selection.append("div")
             .attr("class", "controls");
         _buttonBarDiv.append("button")
