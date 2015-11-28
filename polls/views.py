@@ -190,4 +190,4 @@ def search_scholar(request):
     return render(request, 'polls/search_scholar', {'s':s})
     
 def test_threejs(request):
-    return render(request, 'polls/test_threejs')
+    return render(request, 'polls/test_threejs.html')
