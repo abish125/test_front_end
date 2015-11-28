@@ -165,7 +165,7 @@ demo.Treemap3d = function() {
     return Treemap3d;
 };
 
-d3.json("http://www.billdwhite.com/wordpress/wp-content/data/treemap3d.json", function(error, data) {
+d3.json("{{MEDIA_URL}}treemap3d.json", function(error, data) {
      var treemap3d = demo.Treemap3d();
      d3.select("#container_pehomu").append("div")
          .style("position", "relative")
