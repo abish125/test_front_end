@@ -35,8 +35,8 @@ demo.Treemap3d = function() {
         //_buttonBarDiv = selection.append("div")
         _buttonBarDiv= d3.select("body").append("div")
             .attr("class", "controls")
-            .attr("x", "500px")
-            .attr("y", "500px")
+            .style('position', 'absolute')
+            .style('right', '2px')
         _buttonBarDiv.append("button")
             .text("ZScale: 0")
             .on("click", function() {
