@@ -188,3 +188,6 @@ def show_notes(request):
 def search_scholar(request):
     s=str(txt("innovation", "succi", 1))
     return render(request, 'polls/search_scholar', {'s':s})
+    
+def test_threejs(request):
+    return render(request, 'polls/test_threejs')
