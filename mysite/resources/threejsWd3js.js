@@ -32,7 +32,7 @@ demo.Treemap3d = function() {
         _renderer.shadowMapAutoUpdate = true;
        
         selection.node().appendChild(_renderer.domElement);
-
+        debugger;
         _buttonBarDiv = selection.append("div")
             .attr("class", "controls");
         _buttonBarDiv.append("button")
@@ -151,7 +151,7 @@ demo.Treemap3d = function() {
         var ambientLight = new THREE.AmbientLight(0x313131);
         _scene.add(ambientLight);
        
-        //_controls = new THREE.OrbitControls(_camera, _renderer.domElement);
+        _controls = new THREE.OrbitControls(_camera, _renderer.domElement);
         _controls = new THREE.TrackballControls(_camera, _renderer.domElement);
         _controls.staticMoving  = true;
         _controls.minDistance = 100;
