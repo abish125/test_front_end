@@ -1,0 +1,140 @@
+American zoologist
+http://www.jstor.org/action/showFeed?ui=0&amp;mi=k1dqfx9&amp;ai=1xe&amp;jc=intecompbiol&amp;type=etoc&amp;feed=rss
+Annals of applied biology
+http://www.ingentaconnect.com/content/aab/annals/latest?format=rss
+Annals of Human Biology
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2032772
+Annual review of entomology
+http://arjournals.annualreviews.org/action/showFeed?ai=si&amp;jc=ento&amp;type=etoc&amp;feed=rss
+Annual review of plant biology
+http://arjournals.annualreviews.org/action/showFeed?ai=sr&amp;jc=arplant&amp;type=etoc&amp;feed=rss
+Australian Journal of Experimental Biology and Medical Science
+http://www.nature.com/icb/about/web_feeds.html
+Australian journal of zoology
+http://www.publish.csiro.au/RSS_Feed/CSIRO_Publishing_Recent_ZO.xml
+BioEssays
+http://www3.interscience.wiley.com/rss/journal/34201
+Biological and pharmaceutical bulletin
+https://www.jstage.jst.go.jp/AF05S010NewRssDld?btnaction=JT0040&amp;sryCd=bpb&amp;rssLang=en
+Biological Bulletin
+http://www.biolbull.org/rss/current.xml
+Biological Control
+http://rss.sciencedirect.com/publication/science/6716
+Biological Research
+http://www.scielo.cl/rss.php?pid=0716-9760&amp;lang=en
+Biological reviews
+http://www3.interscience.wiley.com/rss/journal/117981221
+Biology of Sex Differences
+http://www.bsd-journal.com/rss
+Biology of the cell
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1768-322X
+BioScience
+http://www3.interscience.wiley.com/rss/journal/28380
+BMC biology
+http://www.biomedcentral.com/bmcbiol/rss/
+BMC evolutionary biology
+http://www.biomedcentral.com/bmcevolbiol/rss/
+BMC plant biology
+http://www.biomedcentral.com/bmcplantbiol/rss/
+BMC structural biology
+http://www.biomedcentral.com/bmcstructbiol/rss
+Canadian journal of botany
+http://pubs.nrc-cnrc.gc.ca/rp/cjb_e.rss
+Cold Spring Harbor Perspectives in Biology
+http://cshperspectives.cshlp.org/rss/current.xml
+Current opinion in chemical biology
+http://rss.sciencedirect.com/publication/science/13675931
+Development, growth and differentiation
+http://www3.interscience.wiley.com/rss/journal/118482198
+Developmental dynamics
+http://www3.interscience.wiley.com/rss/journal/38417
+Evolution and development
+http://www3.interscience.wiley.com/rss/journal/118546131
+Experimental biology and medicine
+http://ebm.rsmjournals.com/rss_feeds/current.xml
+FASEB Journal
+http://www.fasebj.org/rss/current.xml
+Free radical biology and medicine
+http://rss.sciencedirect.com/publication/science/08915849
+Frontiers in zoology
+http://www.frontiersinzoology.com/rss/
+Grana
+http://api.ingentaconnect.com/content/tandf/sgra/latest?format=rss
+Human biology
+http://feeds.muse.jhu.edu/journals/human_biology/latest_issues.xml
+Integrative and comparative biology
+http://icb.oxfordjournals.org/rss/current.xml
+International journal of biological sciences
+http://www.biolsci.org/rss/current.xml
+Journal of biological physics
+http://www.springerlink.com/content/1573-0689/?sortorder=asc&amp;export=rss
+Journal of biological rhythms
+http://jbr.sagepub.com/rss/current.xml
+Journal of Clinical Laboratory Analysis
+http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1098-2825
+Journal of Computational Biology
+http://www.liebertonline.com/action/showFeed?ui=0&amp;mi=3bpw3w&amp;ai=rz&amp;jc=cmb&amp;type=etoc&amp;feed=rss
+Journal of Ethnobiology and Ethnomedicine
+http://www.ethnobiomed.com/rss
+Journal of evolutionary biology
+http://www3.interscience.wiley.com/rss/journal/118543768
+Journal of experimental botany
+http://jxb.oupjournals.org/rss/recent.xml
+Journal of experimental zoology
+http://www3.interscience.wiley.com/rss/journal/114026676
+Journal of Leukocyte Biology
+http://www.jleukbio.org/rss/current.xml
+Journal of mathematical biology
+http://www.springerlink.com/content/1432-1416/?sortorder=asc&amp;export=rss
+Journal of membrane biology
+http://www.springerlink.com/content/1432-1424/?sortorder=asc&amp;export=rss
+Journal of zoological systematics and evolutionary research
+http://www3.interscience.wiley.com/rss/journal/118496893
+Nature Chemical Biology
+http://www.nature.com/nchembio/current_issue/rss
+Netherlands journal of zoology
+http://www.ingentaconnect.com/content/brill/njz/latest?format=rss
+New phytologist
+http://www3.interscience.wiley.com/rss/journal/118538954
+Perspectives in biology and medicine
+http://feeds.muse.jhu.edu/journals/perspectives_in_biology_and_medicine/latest_issues.xml
+Philosophical transactions of the Royal Society of London. Series B, Biological sci
+http://www.journals.royalsoc.ac.uk/content/102022/?sortorder=asc&amp;export=rss
+Photochemical and photobiological sciences
+http://www.rsc.org/publishing/journals/rssfeed.asp?FeedType=LatestArticles&amp;JournalCode=PP
+Physics in medicine and biology
+http://ej.iop.org/rss/0031-9155/latestpapers.rdf
+Plant and cell physiology
+http://pcp.oupjournals.org/rss/recent.xml
+plant journal
+http://www3.interscience.wiley.com/rss/journal/118488398
+Plant physiology
+http://www.plantphysiol.org/rss/current.xml
+Planta
+http://www.springerlink.com/content/1432-2048/?sortorder=asc&amp;export=rss
+PLoS biology
+http://biology.plosjournals.org/perlserv/?request=get-toc-rss&amp;issn=1545-7885
+PLoS Computational Biology
+http://feeds.feedburner.com/ploscompbiol/NewArticles
+Proceedings of the Royal Society B: Biological Sciences
+http://www.journals.royalsoc.ac.uk/content/102024/?sortorder=asc&amp;export=rss
+Quarterly Review of Biology
+http://www.journals.uchicago.edu/cgi-bin/rss?jrnl=QRB&amp;type=latestissue
+Seminars in Cell and Developmental Biology
+http://rss.sciencedirect.com/publication/science/10849521
+Systematic Biology
+http://api.ingentaconnect.com/content/tandf/usyb/latest?format=rss
+Systems and Synthetic Biology 
+http://www.springerlink.com/content/120380/?sortorder=asc&amp;export=rss
+Theoretical biology and medical modelling
+http://www.tbiomed.com/rss/
+Theory in biosciences
+http://www.ingentaconnect.com/content/urban/591/latest?format=rss
+Trends in Cell Biology
+http://rss.sciencedirect.com/publication/science/09628924
+Wiley Interdisciplinary Reviews: Developmental Biology
+http://onlinelibrary.wiley.com/rss/journal/10.1111/(ISSN)1759-7692
+Wiley interdisciplinary reviews: Systems biology and medicine
+http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1939-005X
+Zygote
+http://journals.cambridge.org/data/rss/feed_ZYG_rss_2.0.xml

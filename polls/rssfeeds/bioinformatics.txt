@@ -1,0 +1,110 @@
+Advances in Bioinformatics
+http://www.hindawi.com/RSS.aspx?journalx3dabi
+Algorithms for molecular biology
+http://www.almob.org/rss/
+BioData Mining
+http://www.biodatamining.org/rss
+Bioinformatics
+http://bioinformatics.oupjournals.org/rss/recent.xml
+Bioinformatics and Biology Insights
+http://la-press.com/feed.php?journal_id=39
+Biomedical engineering online
+http://www.biomedical-engineering-online.com/rss/
+Biometrical Journal
+http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1521-4036
+Biometrics
+http://www3.interscience.wiley.com/rss/journal/118538342
+Biometrika
+http://biomet.oupjournals.org/rss/recent.xml
+Biostatistics
+http://biostatistics.oxfordjournals.org/rss/current.xml
+BMC bioinformatics
+http://www.biomedcentral.com/bmcbioinformatics/rss/
+BMC genomics
+http://www.biomedcentral.com/bmcgenomics/rss
+BMC medical informatics and decision making
+http://www.biomedcentral.com/bmcmedinformdecismak/rss/
+Briefings in bioinformatics
+http://bib.oxfordjournals.org/rss/current.xml
+British Journal of Healthcare Computing and Information Management, The
+http://www.bjhcim.co.uk/news.xml
+Cancer informatics
+http://la-press.com/feed.php?journal_id=10
+Computers, informatics, nursing
+http://194.66.22.134/rss/journals//00024665/current.rss
+Database: The Journal of Biological Databases and Curation
+http://database.oxfordjournals.org/rss/current.xml
+ERCIM News
+http://ercim-news.ercim.org/component/option,com_rss/feed,RSS2.0/no_html,1/
+Genome research
+http://www.genome.org/rss/current.xml
+GenomeBiology.com
+http://genomebiology.com/rss
+Giga Science
+http://www.gigasciencejournal.com/content
+Health Information and Libraries Journal
+http://www3.interscience.wiley.com/rss/journal/118001742
+Healthcare informatics
+http://feeds.feedburner.com/healthcare-informatics/articles?format=xml
+IEEE engineering in medicine and biology magazine
+http://ieeexplore.ieee.org/rss/TOC51.XML
+IEEE transactions on information technology in biomedicine
+http://ieeexplore.ieee.org/rss/TOC4233.XML
+International journal of medical informatics
+http://rss.sciencedirect.com/publication/science/5066
+JAAMT
+http://194.66.22.134/rss/journals//01179370/current.rss
+Journal of biological chemistry
+http://www.jbc.org/rss/current.xml
+Journal of biomedical informatics
+http://rss.sciencedirect.com/publication/science/15320464
+Journal of Biomedical Semantics
+http://jbiomedsem.com/rss/
+Journal of biopharmaceutical statistics
+http://www.tandfonline.com/action/showFeed?ui=0&amp;mi=5zeshq&amp;ai=z1&amp;jc=lbps20&amp;type=etoc&amp;feed=rss
+Journal of Cancer Education
+http://link.springer.com/search.rss?facet-content-type=Article&amp;facet-journal-id=13187&amp;channel-name=Journal%20of%20Cancer%20Education
+Journal of communication
+http://www3.interscience.wiley.com/rss/journal/118502213
+Journal of evaluation in clinical practice
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=1415229
+Journal of medical Internet research
+http://www.jmir.org/feed/rss2
+Journal of the American Medical Informatics Association : JAMIA
+http://rss.sciencedirect.com/publication/science/10675027
+Journal of the Canadian Health Libraries Association
+http://pubservices.nrc-cnrc.ca/rp-ps/rss.jsp?lang=eng&amp;jcode=jchla
+Medical and biological engineering and computing
+http://www.springerlink.com/content/1741-0444/?sortorder=asc&amp;export=rss
+Medical decision making
+http://mdm.sagepub.com/rss/current.xml
+Nature
+http://www.nature.com/nature/current_issue/rss
+Nature biotechnology
+http://www.nature.com/nbt/current_issue/rss
+Nucleic acids research
+http://nar.oupjournals.org/rss/recent.xml
+Pharmaceutical statistics
+http://www3.interscience.wiley.com/rss/journal/93012805
+PLoS Computational Biology
+http://feeds.feedburner.com/ploscompbiol/NewArticles
+PLoS One
+http://feeds.feedburner.com/plosone/PLoSONE
+Proceedings of the Royal Society B: Biological Sciences
+http://www.journals.royalsoc.ac.uk/content/102024/?sortorder=asc&amp;export=rss
+Protein science
+http://www.proteinscience.org/rss/current.xml
+Proteins
+http://www3.interscience.wiley.com/rss/journal/36176
+Proteomics
+http://www3.interscience.wiley.com/rss/journal/76510741
+Science
+http://www.sciencemag.org/rss/current.xml
+Source Code for Biology and Medicine
+http://www.scfbm.org/rss/
+Statistics in medicine
+http://www3.interscience.wiley.com/rss/journal/2988
+Trends in Biochemical Sciences
+http://rss.sciencedirect.com/publication/science/09680004
+Wiley Interdisciplinary Reviews: Computational Statistics
+http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1939-0068

@@ -1,0 +1,36 @@
+AIDS
+http://194.66.22.134/rss/journals//00002030/current.rss
+AIDS Alert
+http://rss.ebscohost.com/AlertSyndicationService/Syndication.asmx/GetFeed?guid=2032691
+AIDS and behavior
+http://www.ingentaconnect.com/content/klu/aibe/latest?format=rss
+AIDS care
+http://www.ingentaconnect.com/content/routledg/caic/latest?format=rss
+AIDS education and prevention
+http://www.extenza-eps.com/rss/etoc/aeap
+AIDS patient care and STDs
+http://www.liebertonline.com/action/showFeed?ai=su&amp;jc=apc&amp;type=etoc&amp;feed=rss
+AIDS research and human retroviruses
+http://www.liebertonline.com/action/showFeed?mi=po50&amp;ai=sv&amp;jc=aid&amp;type=etoc&amp;feed=rss
+AIDS research and therapy
+http://www.aidsrestherapy.com/rss
+AIDS Weekly
+http://rss.proquest.com/rss?rss_id=591270
+AIDS Weekly and Law
+http://rss.proquest.com/rss?rss_id=591271
+Current HIV research
+http://api.ingentaconnect.com/content/ben/chr/latest?format=rss
+Current opinion in HIV and AIDS
+http://194.66.22.134/rss/journals//01222929/current.rss
+HIV and AIDS Review
+http://www.sciencedirect.com/science?_ob=RSSURL&amp;_method=setup&amp;_cid=270512&amp;_acct=C000020958&amp;_version=1&amp;_userid=11050971&amp;md5=d442f3a81a7175e3c2eacc6d266273ab
+HIV medicine
+http://www3.interscience.wiley.com/rss/journal/118491579
+HIV/AIDS surveillance report
+http://www.cdc.gov/hiv/rss/hiv.xml
+Journal of Acquired Immune Deficiency Syndromes
+http://194.66.22.134/rss/journals//00126334/current.rss
+Journal of acquired immune deficiency syndromes and human retrovirology
+http://194.66.22.134/rss/journals//00042560/current.rss
+Journal of the Association of Nurses in AIDS Care
+http://rss.sciencedirect.com/publication/science/10553290

@@ -1,0 +1,23 @@
+import urllib2
+
+f = open("titles.txt", "r")
+titles = f.readlines()
+
+'''
+end = ""
+
+for y in range(len(x)):
+    if y%2==0:
+        for z in x[y].lower():
+            if z == " ":
+                end = end + "_"
+            else:
+                end = end + z
+print end
+
+'''
+
+#for x in titles:    
+r=urllib2.urlopen("http://ebling.library.wisc.edu/rss/opml/all.php?category="+titles[0])
+text=r.read()
+print text

@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Convert Text</title>
+    <script type=text/css src="{{MEDIA_URL}}/layout.css"></script>
+</head>
+<body>
+    <form action="/polls/convert_text2/" method="get">
+
+        <textarea style="color: red; background-color: lightyellow" rows="1" columns="30" name="1"></textarea>
+        <textarea style="color: red; background-color: lightyellow" rows="1" columns="30" name="1"></textarea>
+
+        <input type="submit" value="Convert">
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,7 @@
+emacs.py
+emacs2.py
+emacs3.py
+pip-egg-info/emacs.egg-info/PKG-INFO
+pip-egg-info/emacs.egg-info/SOURCES.txt
+pip-egg-info/emacs.egg-info/dependency_links.txt
+pip-egg-info/emacs.egg-info/top_level.txt

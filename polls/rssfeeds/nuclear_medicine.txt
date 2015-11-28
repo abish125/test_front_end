@@ -1,0 +1,14 @@
+Acta radiologica
+http://ar.rsmjournals.com/rss_feeds/current.xml
+Clinical nuclear medicine
+http://194.66.22.134/rss/journals//00003072/current.rss
+European journal of nuclear medicine and molecular imaging
+http://www.springerlink.com/content/1619-7089/?sortorder=asc&amp;export=rss
+Journal of Medical Radiation Sciences
+http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)2051-3909
+Journal of nuclear medicine
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=093fdzVMr7nu5ItJlZoAP7JRh5qXKtyeeboaoKcm1c7
+NMR in biomedicine
+http://www3.interscience.wiley.com/rss/journal/13087
+Nuclear medicine communications
+http://194.66.22.134/rss/journals//00006231/current.rss

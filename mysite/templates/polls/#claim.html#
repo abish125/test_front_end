@@ -1,0 +1,9 @@
+<html>
+<head>
+    <title>DOI Search</title>
+</head>
+<body>
+   {{ name }} with role {{ role }} claimed {{ query }}.<br><br>
+   <a href="/polls/search-form">back</a>
+</body>
+</html>

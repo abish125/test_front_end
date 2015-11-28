@@ -1,0 +1,52 @@
+NEJM:
+http://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss
+
+JAMA
+http://www.nejm.org/action/showFeed?jc=nejm&type=etoc&feed=rss
+
+LANCET
+http://www.addtoany.com/subscribe?linkname=&linkurl=http://www.thelancet.com%2Frssfeed%2Flancet_current.xml
+
+LANCET INF DIS 
+http://www.addtoany.com/subscribe?linkname=&linkurl=http://www.thelancet.com%2Frssfeed%2Flaninf_current.xml
+
+LANCET NERUO: 
+http://www.addtoany.com/subscribe?linkname=&linkurl=http://www.thelancet.com%2Frssfeed%2Flaneur_current.xml
+
+LANCET Onc
+http://www.addtoany.com/subscribe?linkname=&linkurl=http://www.thelancet.com%2Frssfeed%2Flanonc_current.xml
+
+NATURE MED
+http://www.nature.com/nm/current_issue/rss/
+
+Ann Int Med 
+http://annals.org/rss/site_25/90.xml
+
+Ann Surg
+http://journals.lww.com/annalsofsurgery/_layouts/OAKS.Journals/feed.aspx?FeedType=CurrentIssue
+
+Arch Surgery 
+http://archsurg.jamanetwork.com/rssfeeds.aspx
+
+Ann Emerg Med
+http://www.annemergmed.com/current.rss
+
+Am J Cardiology
+http://www.ajconline.org/current.rss
+
+CANCER
+http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1097-0142
+
+PLOS
+http://www.plosmedicine.org/article/feed
+
+CMAJ
+http://www.cmaj.ca/rss/current.xml
+
+PEDIATRICS
+http://pediatrics.aappublications.org/rss/current.xml
+
+
+
+
+

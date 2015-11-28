@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Convert Text</title>
+    <script type=text/css src="{{MEDIA_URL}}/layout.css"></script>
+</head>
+<body>
+<b>Convert Text</b>
+    <form action="/polls/convert_text2/" method="get">
+
+        <textarea readonly style="color: red; background-color: lightyellow" rows="1" columns="30" name="1">Image: PD</textarea>
+	<br>
+	<textarea rows="3" columns="30" name="2">1. ...</textarea>
+	<br>
+	<textarea rows="3" columns="30" name="3">2. ...</textarea>
+	<br>
+	<textarea rows="1" columns="30" name="4">Evidence rating Level: x ()</textarea>
+	<br>
+	<textarea readonly style="color: red; background-color: lightyellow" name="5">Study Rundown:</textarea>
+	<br>
+	<textarea rows="10" columns="50" name="6">Study Rundown: ...</textarea>
+	<br>
+	<textarea rows="1" columns="50" name="7">Click to read ...</textarea>
+	<br>
+	<textarea rows="1" columns="50" name="8">Relevant Reading:</textarea>
+	<br>
+	<textarea readonly style="color: red; background-color: lightyellow" name="9">In-Depth</textarea>
+	<br>
+	<textarea rows="1" columns="50" name="10">[]:</textarea>
+	<br>
+	<textarea rows="10" columns="50" name="11">put the in-depth text here</textarea>
+	<br>
+	<textarea rows="1" columns="50" name="12">By ...</textarea>
+	<br>
+	<textarea readonly style="color: red; background-color: lightyellow" name="13">More from this author</textarea>
+	<br>
+	<textarea rows="1" columns="50" name="14">titles</textarea>
+	<br>
+	<textarea readonly style="color: red; background-color: lightyellow" rows="5" columns="50" name="15">© 2013 2minutemedicine.com. All rights reserved. No works may be reproduced without expressed written consent from 2minutemedicine.com. Disclaimer: We present factual information directly from peer reviewed medical journals. No post should be construed as medical advice and is not intended as such by the authors, editors, staff or by 2minutemedicine.com. PLEASE SEE A HEALTHCARE PROVIDER IN 
+YOUR AREA IF YOU SEEK MEDICAL ADVICE OF ANY SORT.</textarea>
+	<br>
+	<textarea readonly style="color: red; background-color: lightyellow" name="16"> </textarea>
+
+        <input type="submit" value="Convert">
+    </form>
+</body>
+</html>
+
+

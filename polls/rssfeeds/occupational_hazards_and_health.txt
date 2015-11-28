@@ -1,0 +1,38 @@
+American journal of industrial medicine
+http://www3.interscience.wiley.com/rss/journal/34471
+American journal of physical medicine and rehabilitation
+http://194.66.22.134/rss/journals//00002060/current.rss
+Archives of physical medicine and rehabilitation
+http://rss.sciencedirect.com/publication/science/00039993
+British journal of occupational therapy
+http://api.ingentaconnect.com/content/cot/bjot/latest?format=rss
+Canadian journal of occupational therapy
+http://api.ingentaconnect.com/content/caot/cjot/latest?format=rss
+Disability and rehabilitation
+http://informahealthcare.com/action/showFeed?ui=0&amp;mi=3s94u5&amp;ai=1lir&amp;jc=dre&amp;type=etoc&amp;feed=rss
+European journal of cancer care
+http://www3.interscience.wiley.com/rss/journal/117989478
+Indian Journal of Occupational and Environmental Medicine
+http://www.ijoem.com/rssfeed.asp
+Journal of burn care and rehabilitation
+http://194.66.22.134/rss/journals//00004630/current.rss
+Journal of occupational and environmental medicine
+http://194.66.22.134/rss/journals//00043764/current.rss
+Journal of occupational medicine and toxicology
+http://www.occup-med.com/rss/
+Journal of occupational rehabilitation
+http://springerlink.metapress.com/content/105365/?sortorder=asc&amp;export=rss
+Journal of orthopaedic and sports physical therapy
+http://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=0Oqr798sG9mliJMwEZpTfThl3ttUsvqIRGpWUgYffNX
+Neurorehabilitation and neural repair
+http://nnr.sagepub.com/rss/current.xml
+Occupational and environmental medicine
+http://oem.bmjjournals.com/rss/current.xml
+Occupational medicine
+http://occmed.oupjournals.org/rss/recent.xml
+Occupational Therapy in Health Care
+http://informahealthcare.com/action/showFeed?ui=0&amp;mi=3s94u5&amp;ai=1ju2&amp;jc=ohc&amp;type=etoc&amp;feed=rss
+Occupational therapy international
+http://onlinelibrary.wiley.com/rss/journal/10.1002/(ISSN)1557-0703
+Physical therapy
+http://www.ptjournal.org/rss/ahead.xml

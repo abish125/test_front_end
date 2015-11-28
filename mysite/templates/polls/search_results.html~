@@ -1,0 +1,28 @@
+<p>You searched for: <strong>{{ query }}</strong></p>
+
+{% if doi %}
+    <p>Found {{ doi|length }} doi{{ doi|pluralize }}.</p>
+    <ul>
+        {% for d in doi %}
+        <li>{{ d.doi }}</li>
+        {% endfor %}
+    </ul>
+<html>
+<head>
+    <title>DOI Search</title>
+</head>
+<body>
+
+</body>
+</html>
+
+{% else %}
+    <p>No dois matched your search criteria. Would you like to claim it?</p>
+        <form action="/polls/claim/" method="get">
+        <input type="text" value={{ query }} readonly = "readonly" name="q">
+        <input type="text" name="name"><br>
+	<input type="radio" name="role" value="editor">Editor<br>
+	<input type="radio" name="role" value="writer">Writer<br>
+        <input type="submit" value="claim">
+    </form>
+{% endif %}
