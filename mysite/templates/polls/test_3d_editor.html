@@ -1,37 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>three.js</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<style>
+
+<head>
+	<title>three.js</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<style>
 		body {
 			margin: 0px;
 			overflow: hidden;
 		}
-		</style>
-	</head>
-	<body ontouchstart="">
-		<script src="{{MEDIA_URL}}three.min.js"></script>
-		<script src="{{MEDIA_URL}}app.js"></script>
-		<script>
+	</style>
+</head>
 
-			var loader = new THREE.XHRLoader();
-			loader.load( '{{MEDIA_URL}}app.json', function ( text ) {
+<body ontouchstart="">
+	<div id="container"></div>
+	<script src="{{MEDIA_URL}}three.min.js"></script>
+	<script src="{{MEDIA_URL}}app.js"></script>
+	<script>
+		var WIDTH = 400,
+			HEIGHT = 300;
 
-				var player = new APP.Player();
-				player.load( JSON.parse( text ) );
-				player.setSize( window.innerWidth, window.innerHeight );
-				player.play();
+		// set some camera attributes
+		var VIEW_ANGLE = 45,
+			ASPECT = WIDTH / HEIGHT,
+			NEAR = 0.1,
+			FAR = 10000;
 
-				document.body.appendChild( player.dom );
+		// get the DOM element to attach to
+		// - assume we've got jQuery to hand
+		var $container = $('#container');
 
-				window.addEventListener( 'resize', function () {
-					player.setSize( window.innerWidth, window.innerHeight );
-				} );
+		// create a WebGL renderer, camera
+		// and a scene
+		var renderer = new THREE.WebGLRenderer();
+		var camera =
+			new THREE.PerspectiveCamera(
+				VIEW_ANGLE,
+				ASPECT,
+				NEAR,
+				FAR);
 
-			} );
+		var scene = new THREE.Scene();
 
-		</script>
-	</body>
+		// add the camera to the scene
+		scene.add(camera);
+
+		// the camera starts at 0,0,0
+		// so pull it back
+		camera.position.z = 300;
+
+		// start the renderer
+		renderer.setSize(WIDTH, HEIGHT);
+
+		// attach the render-supplied DOM element
+		$container.append(renderer.domElement);
+
+		var loader = new THREE.JSONLoader();
+		loader.load('{{MEDIA_URL}}geometry.json', function(geometry) {
+			var mesh = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial());
+
+			mesh.position.x = 0;
+			mesh.position.y = 0;
+			mesh.position.z = 0;
+			scene.add(mesh);
+
+		});
+		//stuff from http://stackoverflow.com/questions/21952985/how-to-import-json-and-rendering-in-three-js
+		
+		// create a point light
+var pointLight =
+  new THREE.PointLight(0xFFFFFF);
+
+// set its position
+pointLight.position.x = 10;
+pointLight.position.y = 50;
+pointLight.position.z = 130;
+
+// add to the scene
+scene.add(pointLight);
+
+renderer.render(scene, camera);
+	</script>
+</body>
+
 </html>
