@@ -56,7 +56,7 @@
 
 		// attach the render-supplied DOM element
 		$container.append(renderer.domElement);
-
+		debugger
 		var loader = new THREE.JSONLoader();
 		loader.load('{{MEDIA_URL}}geometry.json', function(geometry) {
 			var mesh = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial());
