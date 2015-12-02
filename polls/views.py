@@ -191,3 +191,6 @@ def search_scholar(request):
     
 def test_threejs(request):
     return render(request, 'polls/test_threejs.html')
+    
+def test_3d_editor(request):
+    return render(request, 'polls/test_3d_editor')
