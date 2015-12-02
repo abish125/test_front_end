@@ -56,7 +56,7 @@
 
 		// attach the render-supplied DOM element
 		$container.append(renderer.domElement);
-		var loader = new THREE.JSONLoader();
+		var loader = new THREE.SceneLoader();
 		//var loader = new THREE.BinaryLoader();
 		loader.load('{{MEDIA_URL}}geometry.json', function(geometry) {
 			var sphereMaterial =
