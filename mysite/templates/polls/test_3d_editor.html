@@ -19,14 +19,14 @@
 	<script src="{{MEDIA_URL}}app.js"></script>
 	<script src="{{MEDIA_URL}}jquery.js"></script>
 	<script>
-		var WIDTH = 4000,
-			HEIGHT = 3000;
+		var WIDTH = 400,
+			HEIGHT = 300;
 
 		// set some camera attributes
 		var VIEW_ANGLE = 45,
 			ASPECT = WIDTH / HEIGHT,
 			NEAR = 0.1,
-			FAR = 10000;
+			FAR = 1000;
 
 		// get the DOM element to attach to
 		// - assume we've got jQuery to hand
@@ -49,7 +49,7 @@
 
 		// the camera starts at 0,0,0
 		// so pull it back
-		camera.position.z = 600;
+		camera.position.z = 200;
 
 		// start the renderer
 		renderer.setSize(WIDTH, HEIGHT);
@@ -59,7 +59,12 @@
 		var loader = new THREE.JSONLoader();
 		//var loader = new THREE.BinaryLoader();
 		loader.load('{{MEDIA_URL}}geometry.json', function(geometry) {
-			var mesh = new THREE.Mesh(geometry, new THREE.MeshBasicMaterial());
+			var sphereMaterial =
+  new THREE.MeshLambertMaterial(
+    {
+      color: 0xCC0000
+    });
+			var mesh = new THREE.Mesh(geometry, sphereMaterial);
 			scene.add(mesh);
 		});
 		//stuff from http://stackoverflow.com/questions/21952985/how-to-import-json-and-rendering-in-three-js
@@ -69,9 +74,9 @@
 			new THREE.PointLight(0xFFFFFF);
 
 		// set its position
-		pointLight.position.x = 500;
-		pointLight.position.y = 500;
-		pointLight.position.z = 1300;
+		pointLight.position.x = 200;
+		pointLight.position.y = 200;
+		pointLight.position.z = 300;
 
 		// add to the scene
 		scene.add(pointLight);
