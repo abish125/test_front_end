@@ -56,17 +56,14 @@
 
 		// attach the render-supplied DOM element
 		$container.append(renderer.domElement);
-		var loader = new THREE.SceneLoader();
+		var loader = new THREE.JSONLoader();
+		
+		//var loader = new THREE.JSONLoader();
+		var model = loader.parse('{{MEDIA_URL}}geometry.json');
+		
+		var mesh = new THREE.Mesh( model.geometry, new THREE.MeshBasicMaterial() );
+		scene.add( mesh );
 		//var loader = new THREE.BinaryLoader();
-		loader.load('{{MEDIA_URL}}geometry.json', function(geometry) {
-			var sphereMaterial =
-  new THREE.MeshLambertMaterial(
-    {
-      color: 0xCC0000
-    });
-			var mesh = new THREE.Mesh(geometry, sphereMaterial);
-			scene.add(mesh);
-		});
 		//stuff from http://stackoverflow.com/questions/21952985/how-to-import-json-and-rendering-in-three-js
 
 		// create a point light
