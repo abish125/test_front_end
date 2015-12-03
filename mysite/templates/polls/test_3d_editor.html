@@ -18,8 +18,8 @@
 	<script src="{{MEDIA_URL}}app.js"></script>
 	<script src="{{MEDIA_URL}}jquery.js"></script>
 	<script>
-		var loader = new THREE.JSONLoader();
-		loader.load( '{{MEDIA_URL}}geometry.json', function ( geometry, materials ) {
+		//var loader = new THREE.JSONLoader();
+		//loader.load( '{{MEDIA_URL}}geometry.json', function ( geometry, materials ) {
 		var WIDTH = 400,
 			HEIGHT = 300;
 
@@ -58,7 +58,7 @@
 		// attach the render-supplied DOM element
 		$container.append(renderer.domElement);
 		
-		var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
+		//var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
     	//scene.add( mesh );
 		//stuff from https://clara.io/learn/user-guide/data_exchange/threejs_export
 
@@ -74,7 +74,7 @@
 		scene.add(pointLight);
 
 		renderer.render(scene, camera);
-		});
+		//});
 	</script>
 </body>
 
