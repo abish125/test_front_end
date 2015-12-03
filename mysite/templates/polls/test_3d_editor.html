@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+< !DOCTYPE html >
+	<html lang="en">
 
 <head>
 	<title>three.js</title>
@@ -57,12 +57,11 @@
 		// attach the render-supplied DOM element
 		$container.append(renderer.domElement);
 
-		var loader = new THREE.JSONLoader();
-		loader.load('{{MEDIA_URL}}geometry.json', function(geometry, materials) {
-			var mesh = new THREE.Mesh(geometry, new THREE.MeshFaceMaterial(materials));
-			scene.add(mesh);
+		var loader = new THREE.ObjectLoader();
+		loader.load("{{MEDIA_URL}}geometry.json",function ( obj ) {
+     		scene.add( obj );
 		});
-		//stuff from http://stackoverflow.com/questions/21952985/how-to-import-json-and-rendering-in-three-js
+		//stuff from https://clara.io/learn/user-guide/data_exchange/threejs_export
 
 		// create a point light
 		var pointLight =
