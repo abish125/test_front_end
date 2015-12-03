@@ -1,5 +1,4 @@
-< !DOCTYPE html >
-	<html lang="en">
+<html lang="en">
 
 <head>
 	<title>three.js</title>
@@ -19,6 +18,8 @@
 	<script src="{{MEDIA_URL}}app.js"></script>
 	<script src="{{MEDIA_URL}}jquery.js"></script>
 	<script>
+	var loader = new THREE.ObjectLoader();
+		loader.load("{{MEDIA_URL}}geometry.json",function ( obj ) {
 		var WIDTH = 400,
 			HEIGHT = 300;
 
@@ -57,10 +58,9 @@
 		// attach the render-supplied DOM element
 		$container.append(renderer.domElement);
 
-		var loader = new THREE.ObjectLoader();
-		loader.load("{{MEDIA_URL}}geometry.json",function ( obj ) {
-     		scene.add( obj );
-		});
+		
+     	scene.add( obj );
+		
 		//stuff from https://clara.io/learn/user-guide/data_exchange/threejs_export
 
 		// create a point light
@@ -76,6 +76,7 @@
 		scene.add(pointLight);
 
 		renderer.render(scene, camera);
+		});
 	</script>
 </body>
 
