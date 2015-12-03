@@ -18,8 +18,6 @@
 	<script src="{{MEDIA_URL}}app.js"></script>
 	<script src="{{MEDIA_URL}}jquery.js"></script>
 	<script>
-		var loader = new THREE.JSONLoader();
-		loader.load( '{{MEDIA_URL}}geometry.json', function ( geometry, materials ) {
 		var WIDTH = 400,
 			HEIGHT = 300;
 
@@ -37,7 +35,7 @@
 		// and a scene
 		var renderer = new THREE.WebGLRenderer();
 		var camera =
-			new THREE.PerspectiveCamera(
+			new THREE.PerspectiveCamera( 
 				VIEW_ANGLE,
 				ASPECT,
 				NEAR,
@@ -58,8 +56,11 @@
 		// attach the render-supplied DOM element
 		$container.append(renderer.domElement);
 		
-		var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
-    	scene.add( mesh );
+		var loader = new THREE.JSONLoader();
+		loader.load( '{{MEDIA_URL}}geometry.json', function ( geometry, materials ) {
+			var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
+    		scene.add( mesh );
+		});
 		//stuff from https://clara.io/learn/user-guide/data_exchange/threejs_export
 
 		// create a point light
@@ -74,7 +75,7 @@
 		scene.add(pointLight);
 
 		renderer.render(scene, camera);
-		});
+		
 	</script>
 </body>
 
