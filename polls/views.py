@@ -193,4 +193,7 @@ def test_threejs(request):
     return render(request, 'polls/test_threejs.html')
     
 def test_3d_editor(request):
-    return render(request, 'polls/test_import_json.html')
+    return render(request, 'polls/test_3d_editor.html')
+    
+def test_import_json(request):
+    return render(request, 'polls/test_import_json')

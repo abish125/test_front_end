@@ -1,193 +1,380 @@
+<html>
+<head>
+	<title>three.js webgl - octree raycasting</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<style>
+		body {
+			font-family: Monospace;
+			background-color: #f0f0f0;
+			margin: 0px;
+			overflow: hidden;
+		}
+	</style>
 
+</head>
 
+<body>
 
+    <script type="text/javascript" src="http://threejs.org/build/three.min.js"></script>
+    <script type="text/javascript" src="http://threejs.org/examples/js/Octree.js"></script>
+	<script type="text/javascript" src="http://threejs.org/examples/js/controls/TrackballControls.js"></script>
+	<script type="text/javascript" src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+	<script>
+		
+		var camera, scene, renderer;
 
+		var controls, stats;
+		
+		var tracker;
+		
+		var octree;
+		
+		var objects = [];
+		var objectsSearch = [];
+		var totalFaces = 0;
+		
+		var simpleMeshCount = 2000;
+		var radius = 100;
+		var radiusMax = radius * 10;
+		var radiusMaxHalf = radiusMax * 0.5;
+		var radiusSearch = radius * 0.75;
+		
+		var baseColor = 0x333333;
+		var foundColor = 0x12C0E3;
+		var intersectColor = 0x00D66B;
+		
+		var clock = new THREE.Clock();
+		var searchDelay = 1;
+		var searchInterval = 0;
+		var useOctree = true;
+		
+		var raycaster = new THREE.Raycaster();
+		var mouse = new THREE.Vector2();
+		var intersected;
 
-                       <script>
+		init();
+		animate();
 
-/* Uses JSONLoader to load objects that have been saved
- * in three.js's json format.  Requires the folder models-json
- * that contains the seven sample models.
- */
+		function init() {
+			
+			// standard three scene, camera, renderer
 
-var renderer;  // A three.js WebGL or Canvas renderer.
-var scene;     // The 3D scene that will be rendered, containing the model.
-var camera;    // The camera that takes the picture of the scene.
+			scene = new THREE.Scene();
 
-var model; // The three.js object that represents the model.
+			camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 1, radius * 100 );
+			camera.position.z = radius * 10;
+			scene.add( camera );
 
-var rotateX = 0;   // rotation of model about the x-axis
-var rotateY = 0;  // rotation of model about the y-axis
+			renderer = new THREE.WebGLRenderer();
+			renderer.setPixelRatio( window.devicePixelRatio );
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			document.body.appendChild( renderer.domElement );
+			
+			// create octree
+			
+			octree = new THREE.Octree( {
+				// uncomment below to see the octree (may kill the fps)
+				//scene: scene,
+				// when undeferred = true, objects are inserted immediately
+				// instead of being deferred until next octree.update() call
+				// this may decrease performance as it forces a matrix update
+				undeferred: false,
+				// set the max depth of tree
+				depthMax: Infinity,
+				// max number of objects before nodes split or merge
+				objectsThreshold: 8,
+				// percent between 0 and 1 that nodes will overlap each other
+				// helps insert objects that lie over more than one node
+				overlapPct: 0.15
+			} );
+			
+			// lights
+			
+			var ambient = new THREE.AmbientLight( 0x101010 );
+			scene.add( ambient );
 
+			var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.5 );
+			directionalLight.position.set( 1, 1, 2 ).normalize();
+			scene.add( directionalLight );
+			
+			// create all objects
+			
+			var simpleGeometry = new THREE.BoxGeometry( 1, 1, 1 );
+			
+			for ( var i = 0; i < simpleMeshCount - 1; i++ ) {
+				
+				totalFaces += simpleGeometry.faces.length;
+				
+				var simpleMaterial = new THREE.MeshBasicMaterial();
+				simpleMaterial.color.setHex( baseColor );
+				
+				modifyOctree( simpleGeometry, simpleMaterial, false, true, true, true );
+				
+			}
+			
+			var loader = new THREE.JSONLoader();
+			
+			loader.load( 'http://threejs.org/examples/obj/lucy/Lucy100k_slim.js', function ( geometry ) {
 
-/*  This function is called by the init() method.  It simply adds
- *  a light to the scene.  Objects are added later by the loader callback.
- */
-function createWorld() {
-    var light;  // A light shining from the direction of the camera.
-    light = new THREE.DirectionalLight();
-    light.position.set(0,0,1);
-    scene.add(light);
-}
+				geometry.computeVertexNormals();
+				totalFaces += geometry.faces.length;
+				
+				var material = new THREE.MeshPhongMaterial( { color: 0x030303, specular: 0x030303, shininess: 30 } );
+				
+				modifyOctree( geometry, material, true );
+				
+			} );
+			
+			// camera controls
+			
+			controls = new THREE.TrackballControls( camera );
+			controls.rotateSpeed = 1.0;
+			controls.zoomSpeed = 1.2;
+			controls.panSpeed = 0.8;
+			controls.noZoom = false;
+			controls.noPan = false;
+			controls.staticMoving = true;
+			controls.dynamicDampingFactor = 0.3;
+			
+			// info
+			
+			var info = document.createElement( 'div' );
+			info.style.display = 'none';
+			info.style.top = '0';
+			info.style.width = '100%';
+			info.style.textAlign = 'center';
+			info.style.padding = '0px';
+			info.style.background = '#FFFFFF';
 
-/**
- * The callback function that is called by the JSONLoader when it
- * has finished loading the object.  This function creates a three.js
- * function to hold the object.  It translates the object so that
- * its center is in the origin.  It wraps the object in another object
- * that is used to scale and rotate the object.  The scale is set
- * so that the maximum coordinate in its vertices, in absolute
- * value, is scaled to 10.  The rotation is controlled by the arrow
- * keys.
- */ 
-function modelLoadedCallback(geometry, materials) {
+			
+			// stats
+			
+			stats = new Stats();
+			stats.domElement.style.display = 'none';
+			stats.domElement.style.top = '0';
+			stats.domElement.style.left = '0';
+			stats.domElement.style.zIndex = 100;
+			
+			document.body.appendChild( stats.domElement );
+			
+			// bottom container
+			
+			var container = document.createElement( 'div' );
+			container.style.display = 'none';
+			container.style.bottom = '0';
+			container.style.width = '100%';
+			container.style.textAlign = 'center';
+			document.body.appendChild( container );
+			
+			// tracker
+			
+			tracker = document.createElement( 'div' );
+			tracker.style.width = '100%';
+			tracker.style.padding = '10px';
+			tracker.style.background = '#FFFFFF';
+			container.appendChild( tracker );
+			
+			// octree use toggle
+			
+			var toggle = document.createElement( 'div' );
+			toggle.style.display = 'none';
+			container.appendChild( toggle );
+			
+			var checkbox = document.createElement('input');
+			checkbox.type = "checkbox";
+			checkbox.name = "octreeToggle";
+			checkbox.value = "value";
+			checkbox.id = "octreeToggle";
+			checkbox.checked = true;
 
-    /* create the object from the geometry and materials that were loaded.  There
-       can be multiple materials, which can be applied to the object using MeshFaceMaterials.
-       Note tha the material can include references to texture images might finish
-       loading later. */
-       
-    var object = new THREE.Mesh(geometry, new THREE.MeshFaceMaterial(materials));
+			var label = document.createElement('label')
+			label.htmlFor = "octreeToggle";
+			label.appendChild(document.createTextNode('Use Octree') );
 
-    /* Determine the ranges of x, y, and z in the vertices of the geometry. */
+			toggle.appendChild(checkbox);
+			toggle.appendChild(label);
+			
+			// events
 
-    var xmin = Infinity;
-    var xmax = -Infinity;
-    var ymin = Infinity;
-    var ymax = -Infinity;
-    var zmin = Infinity;
-    var zmax = -Infinity;
-    for (var i = 0; i < geometry.vertices.length; i++) {
-        var v = geometry.vertices[i];
-        if (v.x < xmin)
-            xmin = v.x;
-        else if (v.x > xmax)
-            xmax = v.x;
-        if (v.y < ymin)
-            ymin = v.y;
-        else if (v.y > ymax)
-            ymax = v.y;
-        if (v.z < zmin)
-            zmin = v.z;
-        else if (v.z > zmax)
-            zmax = v.z;
-    }
-    
-    /* translate the center of the object to the origin */
-    var centerX = (xmin+xmax)/2;
-    var centerY = (ymin+ymax)/2; 
-    var centerZ = (zmin+zmax)/2;
-    var max = Math.max(centerX - xmin, xmax - centerX);
-    max = Math.max(max, Math.max(centerY - ymin, ymax - centerY) );
-    max = Math.max(max, Math.max(centerZ - zmin, zmax - centerZ) );
-    var scale = 10/max;
-    object.position.set( -centerX, -centerY, -centerZ );
-    console.log("Loading finished, scaling object by " + scale);
-    console.log("Center at ( " + centerX + ", " + centerY + ", " + centerZ + " )");
-    
-    /* Create the wrapper, model, to scale and rotate the object. */
-    
-    model = new THREE.Object3D();
-    model.add(object);
-    model.scale.set(scale,scale,scale);
-    rotateX = rotateY = 0;
-    scene.add(model);
-    render();
+			checkbox.addEventListener( 'click', toggleOctree, false );
+			renderer.domElement.addEventListener( 'mousemove', onDocumentMouseMove, false );
 
-}
+			window.addEventListener( 'resize', onWindowResize, false );
 
+		}
+		
+		function toggleOctree () {
+			
+			useOctree = !useOctree;
+			
+		}
 
-/**
- * Called when the setting of the model-selection radio buttons is changed.
- * starts loading the model from the specified file and sets the background
- * color for the renderer (since black background doesn't work for all
- * of the models.
- */
-function installModel(file, bgColor) { 
-    if (model) {
-        scene.remove(model);
-    }
-    renderer.setClearColor(bgColor);
-    render();
-    var loader = new THREE.JSONLoader();
-    loader.load("{{MEDIA_URL}}" + file, modelLoadedCallback);
-}
+		function animate() {
 
+			// note: three.js includes requestAnimationFrame shim
+			
+			requestAnimationFrame( animate );
+			
+			render();
+			
+			stats.update();
 
+		}
+		
+		function render() {
 
-/**
- *  The render fucntion creates an image of the scene from the point of view
- *  of the camera and displays it in the canvas.  This is called at the end of
- *  init() to produce the initial view of the model, and it is called each time
- *  the user presses an arrow key, return, or home.
- */
-function render() {
-    renderer.render(scene, camera);
-}
+			controls.update();
 
-/**
- *  An event listener for the keydown event.  It is installed by the init() function.
- */
-function doKey(evt) { 
-    var rotationChanged = true;
-	switch (evt.keyCode) {
-	    case 37: rotateY -= 0.05; break;        // left arrow
-	    case 39: rotateY +=  0.05; break;       // right arrow
-	    case 38: rotateX -= 0.05; break;        // up arrow
-	    case 40: rotateX += 0.05; break;        // down arrow
-	    case 13: rotateX = rotateY = 0; break;  // return
-	    case 36: rotateX = rotateY = 0; break;  // home
-	    default: rotationChanged = false;
-	}
-	if (model && rotationChanged) {
-       model.rotation.set(rotateX,rotateY,0);	
-       render();
-	   evt.preventDefault();
-	}
-}
+			renderer.render( scene, camera );
+			
+			// update octree post render
+			// this ensures any objects being added
+			// have already had their matrices updated
+			
+			octree.update();
 
-/**
- *  This function is called by the onload event so it will run after the
- *  page has loaded.  It creates the renderer, canvas, and scene objects,
- *  calls createWorld() to add objects to the scene, and renders the
- *  initial view of the scene.  If an error occurs, it is reported.
- */
-function init() {
-    try {
-        var theCanvas = document.getElementById("cnvs");
-        if (!theCanvas || !theCanvas.getContext) {
-            document.getElementById("message").innerHTML = 
-                             "Sorry, your browser doesn't support canvas graphics.";
-            return;
-        }
-        try {  // try to create a WebGLRenderer
-            if (window.WebGLRenderingContext) {
-                renderer = new THREE.WebGLRenderer( { 
-                   canvas: theCanvas, 
-                   antialias: true
-                } );
-            } 
-        }
-        catch (e) {
-        }
-        if (!renderer) { // If the WebGLRenderer couldn't be created, try a CanvasRenderer.
-            renderer = new THREE.CanvasRenderer( { canvas: theCanvas } );
-            renderer.setSize(theCanvas.width,theCanvas.height);
-            document.getElementById("message").innerHTML =
-                          "WebGL not available; falling back to CanvasRenderer.";
-        }
-        scene = new THREE.Scene();
-        camera = new THREE.PerspectiveCamera(50, theCanvas.width/theCanvas.height, 0.1, 100);
-        camera.position.z = 30;
-        createWorld();
-        installModel("geometry.js");
-        render();
-        document.addEventListener("keydown", doKey, false);
-        document.getElementById("r1").checked = true;
-     }
-     catch (e) {
-        document.getElementById("message").innerHTML = "Sorry, an error occurred: " + e;
-     }
-}
+		}
+		
+		function modifyOctree( geometry, material, useFaces, randomPosition, randomRotation, randomScale ) {
+			
+			var mesh;
+			
+			if ( geometry ) {
+				
+				// create new object
+				
+				mesh = new THREE.Mesh( geometry, material );
+				
+				// give new object a random position, rotation, and scale
+				
+				if ( randomPosition ) {
+				
+					mesh.position.set( Math.random() * radiusMax - radiusMaxHalf, Math.random() * radiusMax - radiusMaxHalf, Math.random() * radiusMax - radiusMaxHalf );
+				
+				}
+				
+				if ( randomRotation ) {
+					
+					mesh.rotation.set( Math.random() * 2 * Math.PI, Math.random() * 2 * Math.PI, Math.random() * 2 * Math.PI );
+				
+				}
+				
+				if ( randomScale ) {
+					
+					mesh.scale.x = mesh.scale.y = mesh.scale.z = Math.random() * radius * 0.1 + radius * 0.05;
+					
+				}
+				
+				// add new object to octree and scene
+				// NOTE: octree object insertion is deferred until after the next render cycle
+				
+				octree.add( mesh, { useFaces: useFaces } );
+				scene.add( mesh );
+				
+				// store object
+				
+				objects.push( mesh );
+				
+				/*
+				
+				// octree details to console
+				
+				console.log( ' ============================================================================================================');
+				console.log( ' OCTREE: ', octree );
+				console.log( ' ... depth ', octree.depth, ' vs depth end?', octree.depthEnd() );
+				console.log( ' ... num nodes: ', octree.nodeCountEnd() );
+				console.log( ' ... total objects: ', octree.objectCountEnd(), ' vs tree objects length: ', octree.objects.length );
+				console.log( ' ============================================================================================================');
+				console.log( ' ');
+				
+				// print full octree structure to console
+				
+				octree.toConsole();
+				
+				*/
+				
+			}
+			
+		}
+		
+		function onWindowResize() {
 
-</script>
+			camera.aspect = window.innerWidth / window.innerHeight;
+			camera.updateProjectionMatrix();
+
+			renderer.setSize( window.innerWidth, window.innerHeight );
+
+		}
+
+		function onDocumentMouseMove( event ) {
+
+			event.preventDefault();
+
+			mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+			mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+			
+			raycaster.setFromCamera( mouse, camera );
+
+			var octreeObjects;
+			var numObjects;
+			var numFaces = 0;
+			var intersections;
+			
+			if ( useOctree ) {
+					
+				octreeObjects = octree.search( raycaster.ray.origin, raycaster.ray.far, true, raycaster.ray.direction );
+				
+				intersections = raycaster.intersectOctreeObjects( octreeObjects );
+				
+				numObjects = octreeObjects.length;
+				
+				for ( var i = 0, il = numObjects; i < il; i++ ) {
+					
+					numFaces += octreeObjects[ i ].faces.length;
+					
+				}
+				
+			}
+			else {
+				
+				intersections = raycaster.intersectObjects( objects );
+				numObjects = objects.length;
+				numFaces = totalFaces;
+				
+			}
+			
+			if ( intersections.length > 0 ) {
+
+				if ( intersected != intersections[ 0 ].object ) {
+
+					if ( intersected ) intersected.material.color.setHex( baseColor );
+
+					intersected = intersections[ 0 ].object;
+					intersected.material.color.setHex( intersectColor );
+
+				}
+
+				document.body.style.cursor = 'pointer';
+
+			}
+			else if ( intersected ) {
+				
+				intersected.material.color.setHex( baseColor );
+				intersected = null;
+
+				document.body.style.cursor = 'auto';
+
+			}
+			
+
+			
+		}
+
+	</script>
+
+</body>
+
+</html>
