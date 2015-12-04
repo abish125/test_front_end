@@ -57,7 +57,7 @@
 		$container.append(renderer.domElement);
 		
 		var loader = new THREE.JSONLoader();
-		loader.load( '{{MEDIA_URL}}geometry.json', function ( geometry, materials ) {
+		loader.load( '{{MEDIA_URL}}geometry.js', function ( geometry, materials ) {
 			var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
     		scene.add( mesh );
 		});
@@ -75,7 +75,6 @@
 		scene.add(pointLight);
 
 		renderer.render(scene, camera);
-		
 	</script>
 </body>
 
