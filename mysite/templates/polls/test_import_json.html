@@ -117,7 +117,8 @@
 			
 			var loader = new THREE.JSONLoader();
 			
-			loader.load( 'http://threejs.org/examples/obj/lucy/Lucy100k_slim.js', function ( geometry ) {
+			//loader.load( 'http://threejs.org/examples/obj/lucy/Lucy100k_slim.js', function ( geometry ) {
+			loader.load( '{{MEDIA_URL}}geometry.js', function ( geometry ) {
 
 				geometry.computeVertexNormals();
 				totalFaces += geometry.faces.length;
