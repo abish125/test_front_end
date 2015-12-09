@@ -5,8 +5,7 @@ var _mesh;
 
 $.getScript( "../../resources/sphere.js", function( geometry, materials ) {
   _mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
-  console.log(_mesh)
-});
+  console.log(_mesh);
 
 demo = {};
 
@@ -70,7 +69,7 @@ demo.Treemap3d = function() {
             //this is the imported sphere from sphere.js
             //var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
             //added above
-            console.log(_mesh)
+            console.log(_mesh);
             
             var boxGeometry = new THREE.BoxGeometry(1,1,1);
             var boxMaterial = new THREE.MeshLambertMaterial({color: _colorScale(d.name)});
@@ -198,4 +197,4 @@ window.addEventListener("resize", function() {
     _camera.updateProjectionMatrix();
 });
 
-//});
+});
