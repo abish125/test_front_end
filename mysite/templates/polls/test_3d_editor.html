@@ -60,8 +60,12 @@
 		
 		var loader = new THREE.JSONLoader();
 		loader.load( '{{MEDIA_URL}}geometry.js', function ( geometry, materials ) {
-			var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
-    		scene.add( mesh );
+			geometry.computeVertexNormals();
+			totalFaces += geometry.faces.length;
+				
+			var material = new THREE.MeshPhongMaterial( { color: 0x030303, specular: 0x030303, shininess: 30 } );
+				
+			modifyOctree( geometry, material, true );
 		});
 		//stuff from https://clara.io/learn/user-guide/data_exchange/threejs_export
 
