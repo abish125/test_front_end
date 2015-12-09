@@ -1,6 +1,11 @@
 //var loader = new THREE.JSONLoader();
 //loader.load( '{{MEDIA_URL}}sphere.js', function ( geometry, materials ) {
 //to make it different from the other
+var mesh;
+
+$.getScript( "{{MEDIA_URL", function( geometry, materials ) {
+  mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
+});
 
 demo = {};
 
@@ -64,6 +69,7 @@ demo.Treemap3d = function() {
             //this is the imported sphere from sphere.js
             //var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
             //added above
+            consle.log(mesh)
             
             var boxGeometry = new THREE.BoxGeometry(1,1,1);
             var boxMaterial = new THREE.MeshLambertMaterial({color: _colorScale(d.name)});
