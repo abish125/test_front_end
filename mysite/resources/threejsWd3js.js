@@ -60,6 +60,9 @@ demo.Treemap3d = function() {
             });
        
         function enterHandler(d) {
+            //this is the imported sphere from sphere.js
+            var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
+            
             var boxGeometry = new THREE.BoxGeometry(1,1,1);
             var boxMaterial = new THREE.MeshLambertMaterial({color: _colorScale(d.name)});
             var box = new THREE.Mesh(boxGeometry, boxMaterial);
