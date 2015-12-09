@@ -1,10 +1,10 @@
 //var loader = new THREE.JSONLoader();
 //loader.load( '{{MEDIA_URL}}sphere.js', function ( geometry, materials ) {
 //to make it different from the other
-var mesh;
+var _mesh;
 
-$.getScript( "{{MEDIA_URL", function( geometry, materials ) {
-  mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
+$.getScript( "{{MEDIA_URL}}sphere.js", function( geometry, materials ) {
+  _mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
 });
 
 demo = {};
