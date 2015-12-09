@@ -84,6 +84,16 @@
 
 		// add to the scene
 		scene.add(pointLight);
+		
+			var pointLight2 =new THREE.PointLight(0xFFFFFF);
+
+		// set its position
+		pointLight2.position.x = -200;
+		pointLight2.position.y = -200;
+		pointLight2.position.z = -300;
+
+		// add to the scene
+		scene.add(pointLight2);
 
 		renderer.render(scene, camera);
 		});
