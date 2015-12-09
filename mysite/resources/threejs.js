@@ -5,6 +5,7 @@ var _mesh;
 
 $.getScript( "../../resources/sphere.js", function( geometry, materials ) {
   _mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
+  console.log(_mesh)
 });
 
 demo = {};
