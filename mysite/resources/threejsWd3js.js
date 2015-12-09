@@ -1,5 +1,5 @@
-var loader = new THREE.JSONLoader();
-		loader.load( '{{MEDIA_URL}}sphere.js', function ( geometry, materials ) {
+//var loader = new THREE.JSONLoader();
+//loader.load( '{{MEDIA_URL}}sphere.js', function ( geometry, materials ) {
 
 demo = {};
 
@@ -62,6 +62,7 @@ demo.Treemap3d = function() {
         function enterHandler(d) {
             //this is the imported sphere from sphere.js
             var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
+            //added above
             
             var boxGeometry = new THREE.BoxGeometry(1,1,1);
             var boxMaterial = new THREE.MeshLambertMaterial({color: _colorScale(d.name)});
@@ -189,4 +190,4 @@ window.addEventListener("resize", function() {
     _camera.updateProjectionMatrix();
 });
 
-});
+//});
