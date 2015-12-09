@@ -1,3 +1,6 @@
+var loader = new THREE.JSONLoader();
+		loader.load( '{{MEDIA_URL}}sphere.js', function ( geometry, materials ) {
+
 demo = {};
 
 demo.Treemap3d = function() {
@@ -181,4 +184,6 @@ window.addEventListener("resize", function() {
     _renderer.setSize(newWidth, newHeight);
     _camera.aspect = newWidth / newHeight;
     _camera.updateProjectionMatrix();
+});
+
 });
