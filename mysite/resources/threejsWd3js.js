@@ -61,7 +61,7 @@ demo.Treemap3d = function() {
        
         function enterHandler(d) {
             //this is the imported sphere from sphere.js
-            var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
+            //var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
             //added above
             
             var boxGeometry = new THREE.BoxGeometry(1,1,1);
