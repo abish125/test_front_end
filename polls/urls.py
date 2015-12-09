@@ -20,6 +20,7 @@ urlpatterns = patterns('',
     url(r'^get_articles/$', views.get_articles, name='get_articles'),
     url(r'^search_scholar/$', views.search_scholar, name='search_scholar'),
     url(r'^test_threejs/$', views.test_threejs, name='test_threejs'),
+    url(r'^test_threejs2/$', views.test_threejs2, name='test_threejs2'),
     url(r'^test_3d_editor/$', views.test_3d_editor, name='test_3d_editor'),
     url(r'^test_import_json/$', views.test_import_json, name='test_import_json'),
 

@@ -192,8 +192,13 @@ def search_scholar(request):
 def test_threejs(request):
     return render(request, 'polls/test_threejs.html')
     
+def test_threejs2(request): #this one tests importing blender and joining d3js with threejs
+    return render(request, 'polls/test_threejs2.html') 
+    
 def test_3d_editor(request):
     return render(request, 'polls/test_3d_editor.html')
     
 def test_import_json(request):
     return render(request, 'polls/test_import_json.html')
+    
+
