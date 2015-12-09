@@ -3,7 +3,7 @@
 //to make it different from the other
 var _mesh;
 
-$.getScript( "../resources/sphere.js", function( geometry, materials ) {
+$.getScript( "../../resources/sphere.js", function( geometry, materials ) {
   _mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
 });
 
