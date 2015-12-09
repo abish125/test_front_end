@@ -20,7 +20,11 @@
 	<script type="text/javascript" src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 	<script src="{{MEDIA_URL}}jquery.js"></script>
 	<script>
-		var WIDTH = 400,
+		
+		
+		var loader = new THREE.JSONLoader();
+		loader.load( '{{MEDIA_URL}}sphere.js', function ( geometry, materials ) {
+			var WIDTH = 400,
 			HEIGHT = 300;
 
 		// set some camera attributes
@@ -44,8 +48,13 @@
 				FAR);
 
 		var scene = new THREE.Scene();
-
-		// add the camera to the scene
+		
+		
+		
+			var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
+    		scene.add( mesh );
+    		
+    		// add the camera to the scene
 		scene.add(camera);
 
 		// the camera starts at 0,0,0
@@ -58,15 +67,7 @@
 		// attach the render-supplied DOM element
 		$container.append(renderer.domElement);
 		
-		var loader = new THREE.JSONLoader();
-		loader.load( '{{MEDIA_URL}}geometry.js', function ( geometry, materials ) {
-			geometry.computeVertexNormals();
-			totalFaces += geometry.faces.length;
-				
-			var material = new THREE.MeshPhongMaterial( { color: 0x030303, specular: 0x030303, shininess: 30 } );
-				
-			modifyOctree( geometry, material, true );
-		});
+		
 		//stuff from https://clara.io/learn/user-guide/data_exchange/threejs_export
 
 		// create a point light
@@ -81,6 +82,8 @@
 		scene.add(pointLight);
 
 		renderer.render(scene, camera);
+		});
+
 	</script>
 </body>
 
