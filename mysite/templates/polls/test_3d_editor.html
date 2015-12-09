@@ -59,9 +59,11 @@
 
 		// the camera starts at 0,0,0
 		// so pull it back
-		camera.position.x = 10;
+		camera.position.x = 100;
 		camera.position.y = 0;
 		camera.position.z = 200;
+		
+		camera.lookAt(new THREE.Vector3(0,0,0));
 
 		// start the renderer
 		renderer.setSize(WIDTH, HEIGHT);
