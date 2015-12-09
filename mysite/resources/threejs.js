@@ -69,7 +69,7 @@ demo.Treemap3d = function() {
             //this is the imported sphere from sphere.js
             //var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
             //added above
-            console.log(mesh)
+            console.log(_mesh)
             
             var boxGeometry = new THREE.BoxGeometry(1,1,1);
             var boxMaterial = new THREE.MeshLambertMaterial({color: _colorScale(d.name)});
