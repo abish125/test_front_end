@@ -1,10 +1,8 @@
 //var loader = new THREE.JSONLoader();
 //loader.load( '{{MEDIA_URL}}sphere.js', function ( geometry, materials ) {
 //to make it different from the other
-var _mesh;
 
 $.getScript( "../../resources/sphere.js", function( geometry, materials ) {
-  _mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
 
 demo = {};
 
@@ -71,7 +69,8 @@ demo.Treemap3d = function() {
             var box = new THREE.Mesh(boxGeometry, boxMaterial);
             
             //trying this
-            box = _mesh
+            var _mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
+            box = _mesh;
             //trying this
             
             box.castShadow = true;
