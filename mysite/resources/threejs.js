@@ -5,7 +5,6 @@ var _mesh;
 
 $.getScript( "../../resources/sphere.js", function( geometry, materials ) {
   _mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
-  console.log(_mesh);
 
 demo = {};
 
@@ -66,14 +65,15 @@ demo.Treemap3d = function() {
             });
        
         function enterHandler(d) {
-            //this is the imported sphere from sphere.js
-            //var mesh = new THREE.Mesh( geometry, new THREE.MeshFaceMaterial( materials ) );
-            //added above
-            console.log(_mesh);
             
             var boxGeometry = new THREE.BoxGeometry(1,1,1);
             var boxMaterial = new THREE.MeshLambertMaterial({color: _colorScale(d.name)});
             var box = new THREE.Mesh(boxGeometry, boxMaterial);
+            
+            //trying this
+            box = _mesh
+            //trying this
+            
             box.castShadow = true;
             _boxMap[d.id] = box;
             _scene.add(box);
