@@ -201,7 +201,7 @@ def test_3d_editor(request):
 def test_import_json(request):
     return render(request, 'polls/test_import_json.html')
     
-def test_import_json(request):
+def romania(request):
     return render(request, 'polls/romania.html')
     
 
