@@ -23,6 +23,7 @@ urlpatterns = patterns('',
     url(r'^test_threejs2/$', views.test_threejs2, name='test_threejs2'),
     url(r'^test_3d_editor/$', views.test_3d_editor, name='test_3d_editor'),
     url(r'^test_import_json/$', views.test_import_json, name='test_import_json'),
+    url(r'romania/$', views.romania, name='romania'),
 
     # Smarter Doctor / Evernote prototyping.
     url(r'^show_notes/$', views.show_notes, name='show_notes'),
