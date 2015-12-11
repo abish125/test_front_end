@@ -69,8 +69,8 @@ demo.Treemap3d = function() {
             var box = new THREE.Mesh(boxGeometry, boxMaterial);
             
             //trying this
-            var _mesh = new THREE.Mesh( geometry, boxMaterial );
-            box = _mesh;
+            //var _mesh = new THREE.Mesh( geometry, boxMaterial );
+            //box = _mesh;
             //trying this
             
             box.castShadow = true;
