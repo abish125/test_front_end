@@ -232,9 +232,9 @@ function loadData(sources, callback) {
 }
 
 var dataSources = [
-	{type: 'json', args: ['data/romania-topo.json'], key: 'judete'},
-	{type: 'json', args: ['data/judete-id.json'], key: 'id_judete'},
-	{type: 'csv', args: ['data/recensaminte.csv'], key: 'recensaminte'}
+	{type: 'json', args: ['../../../resources/romania-topo.json'], key: 'judete'},
+	{type: 'json', args: ['../../../resources/judete-id.json'], key: 'id_judete'},
+	{type: 'csv', args: ['../../../resources/recensaminte.csv'], key: 'recensaminte'}
 ];
 
 function extractYears(recensaminte) {
