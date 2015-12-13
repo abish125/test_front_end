@@ -203,5 +203,7 @@ def test_import_json(request):
     
 def romania(request):
     return render(request, 'polls/romania.html')
-    
+
+def human(request):
+    return render(request, 'polls/human.html')
 
