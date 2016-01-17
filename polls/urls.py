@@ -25,6 +25,8 @@ urlpatterns = patterns('',
     url(r'^test_import_json/$', views.test_import_json, name='test_import_json'),
     url(r'romania/$', views.romania, name='romania'),
     url(r'human/$', views.human, name='human'),
+    url(r'sphere_graphs/$', views.sphere_graphs, name='sphere_graphs'),
+    url(r'ekg_project/$', views.ekg_project, name='ekg_project'), 
 
     # Smarter Doctor / Evernote prototyping.
     url(r'^show_notes/$', views.show_notes, name='show_notes'),

@@ -8,7 +8,7 @@ from django.contrib.auth.models import User
 import feedparser
 import string
 import os
-from django.utils import simplejson
+#from django.utils import simplejson
 import json
 from scholar2 import txt
 
@@ -207,3 +207,8 @@ def romania(request):
 def human(request):
     return render(request, 'polls/human.html')
 
+def sphere_graphs(request):
+    return render(request, 'polls/sphere_graphs.html')
+
+def ekg_project(request):
+    return render(request, 'polls/ekg_project.html')
