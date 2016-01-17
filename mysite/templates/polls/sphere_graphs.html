@@ -21,12 +21,12 @@
       <img src="css/img/pinch.png">
       <img src="css/img/triple.png">
     </div>
-    <script src="lib/three.min.js"></script>
-    <script src="lib/tween.js"></script>
-    <script src="lib/CSS3DRenderer.js"></script>
-    <script src="lib/TrackballControls.js"></script>
-    <script src="lib/d3.min.js"></script>
-    <script src="js/viz.js"></script>
+    <script src="{{MEDIA_URL}}three.min.js"></script>
+    <script src="{{MEDIA_URL}}tween.js"></script>
+    <script src="{{MEDIA_URL}}CSS3DRenderer.js"></script>
+    <script src="{{MEDIA_URL}}TrackballControls.js"></script>
+    <script src="{{MEDIA_URL}}d3.min.js"></script>
+    <script src="{{MEDIA_URL}}viz.js"></script>
     <script>
       d3.json("../../resources/investments.json", function (error, data) {
         VIZ.drawElements(data);
