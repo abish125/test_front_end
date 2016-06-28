@@ -26,7 +26,8 @@ urlpatterns = patterns('',
     url(r'romania/$', views.romania, name='romania'),
     url(r'human/$', views.human, name='human'),
     url(r'sphere_graphs/$', views.sphere_graphs, name='sphere_graphs'),
-    url(r'ekg_project/$', views.ekg_project, name='ekg_project'), 
+    url(r'ekg_project/$', views.ekg_project, name='ekg_project'),
+    url(r'ekg_project2/$', views.ekg_project2, name='ekg_project2'),
 
     # Smarter Doctor / Evernote prototyping.
     url(r'^show_notes/$', views.show_notes, name='show_notes'),

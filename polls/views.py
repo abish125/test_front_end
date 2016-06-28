@@ -212,3 +212,6 @@ def sphere_graphs(request):
 
 def ekg_project(request):
     return render(request, 'polls/ekg_project.html')
+    
+def ekg_project2(request):
+    return render(request, 'polls/ekg_project2.html')
