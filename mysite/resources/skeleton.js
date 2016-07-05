@@ -29,7 +29,7 @@ demo.addScene("Box", function()
         localAnchorA: new CANNON.Vec3(size,0,size),
         localAnchorB: new CANNON.Vec3(0,0,0),
         restLength : 0,
-        stiffness : 50,
+        stiffness : 5,
         damping : 1,
     });
 
