@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>cannon.js - spring demo</title>
