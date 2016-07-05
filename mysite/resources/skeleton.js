@@ -1,5 +1,5 @@
 var demo = new CANNON.Demo();
-var size = 1;
+var size = 3;
 
 demo.addScene("Box", function()
 {
