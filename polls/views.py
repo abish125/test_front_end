@@ -218,3 +218,6 @@ def ekg_project2(request):
     
 def skeleton(request):
     return render(request, 'polls/skeleton.html')
+    
+def cloth_sphere(request):
+    return render(request, 'polls/cloth_sphere.html')
