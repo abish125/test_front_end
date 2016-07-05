@@ -215,3 +215,6 @@ def ekg_project(request):
     
 def ekg_project2(request):
     return render(request, 'polls/ekg_project2.html')
+    
+def skeleton(request):
+    return render(request, 'pols/skeleton.html')
