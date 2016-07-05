@@ -8,15 +8,14 @@
     <script src="{{MEDIA_URL}}Detector.js"></script>
     <script src="{{MEDIA_URL}}stats.min.js"></script>
     <script src="{{MEDIA_URL}}smoothie.js"></script>
-    <script>
+    <script type="text/javascript">
 
     var demo = new CANNON.Demo();
     var size = 1;
 
     demo.addScene("Box",function(){
 
-        // Create world
-        var world = demo.getWorld();
+        // Create world var world = demo.getWorld();
         world.gravity.set(0,0,-10);
         world.broadphase = new CANNON.NaiveBroadphase();
 
