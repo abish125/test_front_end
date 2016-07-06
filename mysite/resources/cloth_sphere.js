@@ -229,7 +229,7 @@
       // Distance constraints can be used to construct even cooler things, like this 3d block.
       demo.addScene("3D cloth structure",function(){
           var world = setupWorld(demo);
-          world.solver.iterations = 10;
+          world.solver.iterations = 100;
           var dist = 1;
           var mass = 1;
           var Nx = 20, Ny = 30, Nz = 30;
