@@ -232,7 +232,7 @@
           world.solver.iterations = 10;
           var dist = 1;
           var mass = 1;
-          var Nx = 6, Ny = 3, Nz = 3;
+          var Nx = 20, Ny = 30, Nz = 30;
           var bodies = {}; // bodies["i j k"] => particle
           for(var i=0; i<Nx; i++){
             for(var j=0; j<Ny; j++){
