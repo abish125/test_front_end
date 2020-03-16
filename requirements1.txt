@@ -1,5 +1,5 @@
 Cython==0.19.2
-Django==1.6.1
+Django==1.11.28
 PyFlot==0.2
 PyYAML==3.10
 Unirest==1.1.6
